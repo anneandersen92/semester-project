@@ -1,5 +1,43 @@
-main {
-    margin: 0 32px;
+header {
+    margin: 0;
+}
+
+.header-wrapper {
+    position: relative;
+}
+
+.header-wrapper img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(80%);
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+.science-icon {
+    font-size: 50pt;
+    color: var(--alabaster);
+}
+
+h1 {
+    font-size: 40pt;
+    line-height: 45pt;
+    color: var(--alabaster);
+    letter-spacing: 2pt;
+    margin: 0;
+}
+
+.visit-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 24px 0;
 }
 
 .featured-wrapper {

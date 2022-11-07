@@ -7,17 +7,20 @@
         <meta name="theme-color" content="#">
         <title>Community Science Museum | Home</title>
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-        <link rel='preload' as='style' href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel='preload' as='style' href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="styles/media.css">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <span class="material-icons-outlined">science</span>
-                <h1>Community Science Museum</h1>
+            <div class="header-wrapper">
+                <img src="images/index_header.jpg" alt="">
+                <div class="logo">
+                    <span class="material-icons-outlined science-icon">science</span>
+                    <h1>Community Science Museum</h1>
+                </div>
             </div>
             <div class="menu">
                 <label for="hamburger"><span class="material-icons-outlined" title="Menu" aria-label="menu icon">menu</span></label>
@@ -37,17 +40,17 @@
             </div>
         </header>
         <main>
-            <section>
-                <div>
+            <section class="visit-wrapper">
+                <div class="open-container">
                     <h2>Open daily</h2>
                     <p>10:00 - 18:00</p>
                 </div>
-                <div>
+                <div class="entrance-container">
                     <h3>Free entrance</h3>
                     <h3> Pre-booking required</h3>
                 </div>
                 <div>
-                    <a href="visit.html">Book your visit</a>
+                    <a href="visit.html" class="btn">Book your visit</a>
                 </div>
             </section>
             <section class="featured-wrapper events">
@@ -57,8 +60,8 @@
                     <p class="bold">Art LAB</p>
                     <p>Thursdays 14:00 - 18:00</p>
                     <div class="btn-area">
-                        <a href="event.html">View</a>
-                        <a href="visit.html">Book now</a>
+                        <a href="event.html" class="btn">View</a>
+                        <a href="visit.html" class="btn">Book now</a>
                     </div>
                 </div>
             </section>
