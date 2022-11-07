@@ -35,15 +35,6 @@ h1 {
     line-height: 36pt;
     color: var(--alabaster);
     letter-spacing: 2pt;
-    margin: 0;
-}
-
-.menu-icon {
-    font-size: 32px;
-    color: var(--alabaster);
-    position: absolute;
-    top: 16px;
-    right: 16px;
 }
 
 .visit-wrapper {
@@ -51,26 +42,66 @@ h1 {
     flex-direction: column;
     text-align: center;
     margin: 24px 0;
+    gap: 32px;
 }
+
+.open-container,
+.entrance-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn-all {
+    background: var(--dark-charcoal);
+}
+
+.visit-wrapper .btn-area {padding: 10px 0;}
 
 .featured-wrapper {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-    margin-top: 24px;
 }
 
 .featured {
     display: flex;
     flex-direction: column;
+    background: var(--alabaster);
 }
 
 .featured img {
     width: 100%;
 }
 
-.btn-area {
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.event-info .btn-area {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 16px;
+}
+
+.btn-book {
+    background: var(--metallic-seaweed);
+    width: 100%;
+    text-align: center;
+}
+
+.btn-view {
+    background: var(--charcoal);
+    width: 50%;
+    text-align: center;
 }
