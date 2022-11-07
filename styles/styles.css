@@ -24,6 +24,8 @@ main {
     margin: 0 32px;
 }
 
+
+
 /* FONTS */
 
 @font-face {
@@ -67,7 +69,8 @@ h3 {
     letter-spacing: 0.5pt;
 }
 
-p {
+p,
+a {
     font-family: var(--body-font);
     font-size: 12pt;
     line-height: 1.5;
@@ -81,6 +84,8 @@ p {
 }
 
 a {text-decoration: none;}
+
+
 
 /* BUTTONS */
 
@@ -96,6 +101,8 @@ a {text-decoration: none;}
     box-shadow: 1px 1px 6px var(--box-shadow);
     transition: all .8s ease;
 }
+
+
 
 /* NAV */
 
@@ -140,4 +147,40 @@ a {text-decoration: none;}
 .hamitems.large,
 .hamitems.small {
     gap: 40px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background: var(--dark-charcoal);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 48px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-head {
+    font-family: var(--header-font);
+    font-size: 14pt;
+    letter-spacing: 1px;
+    color: var(--alabaster);
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+footer p,
+footer a {
+    color: var(--alabaster);
+}
+
+footer a:hover {
+    text-decoration: underline 1.5px var(--alabaster);
 }
