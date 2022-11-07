@@ -39,6 +39,14 @@ h1 {
     margin: 0;
 }
 
+.menu-icon {
+    font-size: 32px;
+    color: var(--alabaster);
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
 .visit-wrapper {
     display: flex;
     flex-direction: column;
