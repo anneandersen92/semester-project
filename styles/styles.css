@@ -159,6 +159,7 @@ footer {
     flex-direction: column;
     gap: 40px;
     padding: 48px;
+    margin-top: 56px;
 }
 
 .footer-section {
@@ -170,7 +171,7 @@ footer {
 .footer-head {
     font-family: var(--header-font);
     font-size: 14pt;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: var(--alabaster);
     text-transform: uppercase;
     line-height: 2;
@@ -179,6 +180,7 @@ footer {
 footer p,
 footer a {
     color: var(--alabaster);
+    letter-spacing: 0.5px;
 }
 
 footer a:hover {
