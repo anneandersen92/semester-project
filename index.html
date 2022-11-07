@@ -6,13 +6,63 @@
         <meta name="description" content="#">
         <meta name="theme-color" content="#">
         <title>Community Science Museum | Home</title>
-        <link href="styles/styles.css" rel="stylesheet">
-        <link href="styles/index.css" rel="stylesheet">
-        <link href="styles/media.css" rel="stylesheet">
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        <link rel='preload' as='style' href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/media.css">
     </head>
     <body>
-        <header></header>
-        <main></main>
+        <header>
+            <div class="logo">
+                <span class="material-icons-outlined">science</span>
+                <h1>Community Science Museum</h1>
+            </div>
+            <div class="menu">
+                <label for="hamburger"><span class="material-icons-outlined" title="Menu" aria-label="menu icon">menu</span></label>
+                <input type="checkbox" id="hamburger">
+                <nav class="hamnav">
+                    <div class="hamitems large">
+                        <a href="visit.html">Visit us</a>
+                        <a href="explore.html">Explore</a>
+                        <a href="getinvolved.html">Get involved</a>
+                    </div>
+                    <div class="hamitems small">
+                        <a href="events.html">Events</a>
+                        <a href="exhibitions.html">Exhibitions</a>
+                        <a href="blog.html">Blog</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h2>Open daily</h2>
+                    <p>10:00 - 18:00</p>
+                </div>
+                <div>
+                    <h3>Free entrance</h3>
+                    <h3> Pre-booking required</h3>
+                </div>
+                <div>
+                    <a href="#">Book your visit</a>
+                </div>
+            </section>
+            <section class="featured-wrapper events">
+                <div class="featured event">
+                    <a href="#"><img src="#" alt="#"></a>
+                    <h2>#</h2>
+                    <p class="bold">#</p>
+                    <p>#</p>
+                    <div class="btn-area">
+                        <a href="#">View</a>
+                        <a href="#">Book now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>
