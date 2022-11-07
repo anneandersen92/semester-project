@@ -22,7 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-width: 320px;
+    min-width: 330px;
     max-width: 350px;
 }
 
