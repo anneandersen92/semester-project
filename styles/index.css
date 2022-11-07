@@ -21,13 +21,13 @@ header {
 }
 
 .science-icon {
-    font-size: 50pt;
+    font-size: 40pt;
     color: var(--alabaster);
 }
 
 h1 {
-    font-size: 40pt;
-    line-height: 45pt;
+    font-size: 32pt;
+    line-height: 36pt;
     color: var(--alabaster);
     letter-spacing: 2pt;
     margin: 0;

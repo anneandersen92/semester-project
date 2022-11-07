@@ -34,35 +34,35 @@ h3 {
     font-family: var(--header-font);
     color: var(--dark-charcoal);
     line-height: normal;
-    letter-spacing: 2pt;
 }
 
 h1 {
-    font-size: 32pt;
-    line-height: 30pt;
+    font-size: 24pt;
+    letter-spacing: 2pt;
 }
 
 h2 {
-    font-size: 24pt;
+    font-size: 20pt;
+    letter-spacing: 1pt;
 }
 
 h3 {
-    font-size: 18pt;
+    font-size: 16pt;
+    letter-spacing: 0.5pt;
 }
 
 p {
     font-family: var(--body-font);
-    font-size: 14pt;
-    line-height: 18pt;
-    letter-spacing: 1pt;
+    font-size: 12pt;
+    line-height: 1.5;
     color: var(--dark-charcoal);
 }
 
 .bold {
     font-family: var(--header-font);
-    font-size: 16pt;
+    font-size: 12pt;
     line-height: normal;
-    letter-spacing: 2pt;
+    letter-spacing: 0.5pt;
 }
 
 a {
@@ -72,11 +72,11 @@ a {
 
 .btn {
     font-family: var(--body-font);
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: bold;
     letter-spacing: 1pt;
     color: var(--alabaster);
-    padding: 8px 16px;
+    padding: 10px 24px;
     background: var(--metallic-seaweed);
     border-radius: 0 8px;
     box-shadow: var(--box-shadow);
