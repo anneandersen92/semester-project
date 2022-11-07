@@ -48,7 +48,7 @@ h1 {
     flex-direction: column;
     text-align: center;
     margin: 24px 0;
-    gap: 32px;
+    gap: 24px;
 }
 
 .open-container,
@@ -67,7 +67,7 @@ h1 {
     flex-direction: column;
     row-gap: 24px;
     align-items: center;
-    margin-bottom: 48px;
+    margin-bottom: 56px;
 }
 
 .featured {
