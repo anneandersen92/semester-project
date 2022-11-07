@@ -1,0 +1,28 @@
+:root {
+    --dark-charcoal: #333333;
+    --charcoal: #666666;
+    --english-violet: #333366;
+    --glossy-grape: #a493bd;
+    --alabaster: #f2f2e9;
+    --metallic-seaweed: #207c95;
+    --black: #000000;
+    --header-font: "monomaniac_oneregular";
+    --body-font: "Open Sans", sans-serif, Verdana, Geneva, Tahoma;
+}
+
+@font-face {
+    font-family: 'monomaniac_oneregular';
+    src: url("../fonts/monomaniac-one-regular-webfont.woff2") format('woff2'),
+         url("../fonts/monomaniac-one-regular-webfont.woff") format('woff');
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--header-font);
+}
+
+p,
+a {
+    font-family: var(--body-font);
+}

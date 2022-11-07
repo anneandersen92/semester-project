@@ -1,0 +1,25 @@
+main {
+    margin: 0 32px;
+}
+
+.featured-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-top: 24px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured img {
+    width: 100%;
+}
+
+.btn-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
