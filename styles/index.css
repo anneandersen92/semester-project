@@ -106,14 +106,14 @@ h1 {
 
 .btn-area-all {width: 80%;}
 
-.btn-all {width: 100%;}
+.btn-all,
+.btn-book,
+.btn-read {width: 100%;}
+
+.visit-wrapper .btn {padding: 8px 32px;}
 
 .visit-wrapper .btn,
-.btn-all {
-    background: var(--dark-charcoal);
-    text-align: center;
-    padding: 12px 32px;
-}
+.btn-all {background: var(--dark-charcoal);}
 
 .visit-wrapper .btn:hover,
 .btn-all:hover {
@@ -127,12 +127,6 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     gap: 16px;
-}
-
-.btn-book,
-.btn-read {
-    width: 100%;
-    text-align: center;
 }
 
 .btn-book {background: var(--metallic-seaweed);}
