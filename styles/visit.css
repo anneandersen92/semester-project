@@ -1,8 +1,10 @@
-.visit-info {
+.visit-info,
+.form-wrapper,
+.about-wrapper {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 form,
@@ -15,15 +17,16 @@ textarea {
     letter-spacing: 0.5pt;
 }
 
-select,
-.date {text-indent: -3px;}
-
-form {
+form,
+.opening-hours,
+.location {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-top: 8px;
 }
+
+select,
+.date {text-indent: -3px;}
 
 select,
 input,
@@ -60,6 +63,18 @@ textarea {
     background: var(--dark-charcoal);
 }
 
-.about-wrapper {width: 100%;}
-
 .map {width: 100%;}
+
+.info-section,
+.info-section-h,
+.information-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-wrapper {gap: 24px;}
+
+.info-section,
+.info-section-h {gap: 8px;}
+
+.info-section-h {flex-direction: row;}

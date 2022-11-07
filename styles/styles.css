@@ -90,6 +90,7 @@ a {text-decoration: none;}
 
 
 /* HEADER */
+
 header {
     background: var(--dark-charcoal);
     display: flex;
@@ -129,6 +130,12 @@ header {
 
 #hamburger {display: none;}
 
+#hamburger:checked ~ .hamnav,
+.hamitems {
+    display: flex;
+    flex-direction: column;
+}
+
 #hamburger:checked ~ .hamnav {
     position: absolute;
     top: 96px;
@@ -138,15 +145,8 @@ header {
     background: #f2f2e999;
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-    display: flex;
-    flex-direction: column;
     padding: 8% 20%;
     gap: 80px;
-}
-
-.hamitems {
-    display: flex;
-    flex-direction: column;
 }
 
 .hamitems.large,
@@ -174,19 +174,21 @@ header {
 
 /* FOOTER */
 
-footer {
-    background: var(--dark-charcoal);
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 48px;
-}
-
+footer,
 .footer-section {
     display: flex;
     flex-direction: column;
-    gap: 6px;
 }
+
+
+footer {
+    background: var(--dark-charcoal);
+    gap: 40px;
+    padding: 48px;
+    margin-top: 56px;
+}
+
+.footer-section {gap: 6px;}
 
 .footer-head {
     font-family: var(--header-font);
@@ -203,6 +205,4 @@ footer a {
     letter-spacing: 0.5px;
 }
 
-footer a:hover {
-    text-decoration: underline 1.5px var(--alabaster);
-}
+footer a:hover {text-decoration: underline 1.5px var(--alabaster);}

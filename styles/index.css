@@ -59,11 +59,24 @@ h1 {
 
 
 
-/* OPENING HOURS AND VISIT */
+/* OPENING HOURS, VISIT & FEATURED */
 
-.visit-wrapper {
+.visit-wrapper,
+.open-container,
+.entrance-container,
+.featured-wrapper,
+.featured,
+.event-info,
+.exhibition-info,
+.blogpost-info,
+.event-details,
+.exhibition-details,
+.blogpost-details {
     display: flex;
     flex-direction: column;
+}
+
+.visit-wrapper {
     text-align: center;
     margin: 24px 0;
     gap: 24px;
@@ -71,26 +84,15 @@ h1 {
 
 .open-container,
 .entrance-container {
-    display: flex;
-    flex-direction: column;
     gap: 4px;
 }
 
-
-
-/* FEATURED */
-
 .featured-wrapper {
-    display: flex;
-    flex-direction: column;
     row-gap: 24px;
     align-items: center;
-    margin-bottom: 56px;
 }
 
 .featured {
-    display: flex;
-    flex-direction: column;
     background: var(--alabaster);
     transition: all 0.5s ease;
 }
@@ -104,8 +106,6 @@ h1 {
 .event-info,
 .exhibition-info,
 .blogpost-info {
-    display: flex;
-    flex-direction: column;
     gap: 16px;
     padding: 16px;
 }
@@ -113,8 +113,6 @@ h1 {
 .event-details,
 .exhibition-details,
 .blogpost-details {
-    display: flex;
-    flex-direction: column;
     gap: 4px;
 }
 
