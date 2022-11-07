@@ -47,10 +47,14 @@ h1 {
     font-size: 32pt;
     top: 32px;
     right: 32px;
+    z-index: 1000;
+    color: var(--alabaster);
 }
 
 #hamburger:checked ~ .hamnav {
-    top: 250px;
+    top: 0;
+    padding: 20%;
+    z-index: 900;
 }
 
 

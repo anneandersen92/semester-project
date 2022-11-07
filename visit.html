@@ -41,7 +41,113 @@
             </div>
         </header>
         <main>
-            <p>Hei</p>
+            <section>
+                <h1>Visit us</h1>
+                <div class="visit-info">
+                    <p>If you want to visit the museum, you need to book a ticket. Admission is free, but some of our tours events, exhibitions and clubs have a fee.</p>
+                    <p>Information for your visit and what to expect when you arrive can be found further down the page.</p>
+                    <p>
+                    Book your visit today by filling in the form below!</p>
+                </div>
+            </section>
+            <section>
+                <h2>Booking</h2>
+                <form>
+                    <div class="select-menu">
+                        <select name="booking" class="booking">
+                            <option value="0">Select your booking</option>
+                            <option value="1">Admission ticket</option>
+                            <option value="2">Event</option>
+                            <option value="3">Exhibition</option>
+                            <option value="4">Einstein / Holiday Club</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input name="name" type="text" class="name" placeholder="Name" required aria-label="name">
+                        <label for="name"></label>
+                    </div>
+                    <div>
+                        <input name="email" type="email" class="email" placeholder="Email" required aria-label="email">
+                        <label for="email"></label>
+                    </div>
+                    <div>
+                        <input name="date" type="date" class="date" required aria-label="date">
+                        <label for="date"></label>
+                    </div>
+                    <div>
+                        <div>
+                            <input name="adults" type="text" class="adults" placeholder="Adults" aria-label="adults">
+                            <label for="adults"></label>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="cart-icon subtract-icon" title="subtract product" aria-label="subtract product icon"><span class="material-icons-outlined cart-icon subtract-icon">remove_circle_outline</span></button>
+                            <p class="small quantity">1</p>
+                            <button class="cart-icon add-icon" title="Add product" aria-label="add product"><span class="material-icons-outlined cart-icon add-icon">add_circle_outline</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <input name="children" type="text" class="children" placeholder="Children" aria-label="children">
+                            <label for="children"></label>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="cart-icon subtract-icon" title="subtract product" aria-label="subtract product icon"><span class="material-icons-outlined cart-icon subtract-icon">remove_circle_outline</span></button>
+                            <p class="small quantity">2</p>
+                            <button class="cart-icon add-icon" title="Add product" aria-label="add product"><span class="material-icons-outlined cart-icon add-icon">add_circle_outline</span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <textarea name="message" class="message" rows="6" placeholder="Message (optional)"  aria-label="message area"></textarea>
+                        <label for="message"></label>
+                    </div>
+                    <div class="btn-area">
+                        <a href="confirmation.html" class="btn">Book now</a>
+                    </div>
+                </form>
+            </section>
+            <section class="about-wrapper">
+                <div>
+                    <h2>Open daily</h2>
+                    <p>10:00 - 18:00</p>
+                </div>
+                <div>
+                    <h2>Location</h2>
+                    <p>Community Science Museum</p>
+                    <p>Science Road 100</p>
+                    <p>North Museumshire</p>
+                    <p>Museum City</p>
+                </div>
+                <div>
+                    <img src="images/map.png" class="map">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>When you get there</h2>
+                    <p>Prepare for your visit by reading more about the museums current exhibitions and upcomming events, or maybe read one of the posts in the museum blog.</p>
+                </div>
+                <div>
+                    <div>
+                        <span class="material-icons-outlined accessible-icon" title="Accessibility" aria-label="accessibility icon">accessible</span>
+                        <h3>Accessibility</h3>
+                    </div>
+                    <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
+                </div>
+                <div>
+                    <div>
+                        <span class="material-icons-outlined shop-icon" title="Museum Gift Shop" aria-label="museum gift shop icon">storefront</span>
+                        <h3>Museum Gift Shop</h3>
+                    </div>
+                    <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you've left the museum.</p>
+                </div>
+                <div>
+                    <div>
+                        <span class="material-icons-outlined cafe-icon" title="Museum Café" aria-label="museum café icon">local_cafe </span>
+                        <h3>Museum Café</h3>
+                    </div>
+                    <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="footer-section">

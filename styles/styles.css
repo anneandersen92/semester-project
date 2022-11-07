@@ -58,6 +58,8 @@ h1,
     letter-spacing: 2pt;
 }
 
+h1 {padding: 24px 0;}
+
 h2,
 .hamitems.small a {
     font-size: 20pt;
@@ -138,7 +140,7 @@ header {
     backdrop-filter: blur(12px);
     display: flex;
     flex-direction: column;
-    padding: 5% 20%;
+    padding: 8% 20%;
     gap: 80px;
 }
 

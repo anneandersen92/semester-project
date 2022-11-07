@@ -1,0 +1,65 @@
+.visit-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+}
+
+form,
+select,
+input,
+textarea {
+    width: 100%;
+    font-family: var(--body-font);
+    font-size: 12pt;
+    letter-spacing: 0.5pt;
+}
+
+select,
+.date {text-indent: -3px;}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+select,
+input,
+textarea {
+    border: 1px solid var(--dark-charcoal);
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: none;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cart-icon {
+    background: none;
+    font-size: 11pt;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    color: var(--charcoal);
+}
+
+.cart-icon:hover {cursor: pointer;}
+
+.btn {
+    width: 100%;
+    background: var(--dark-charcoal);
+}
+
+.about-wrapper {width: 100%;}
+
+.map {width: 100%;}
