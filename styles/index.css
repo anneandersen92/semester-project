@@ -22,8 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-width: 330px;
-    max-width: 350px;
+    width: 314px;
 }
 
 .science-icon {
