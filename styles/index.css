@@ -2,6 +2,9 @@
 
 header {
     margin: 0;
+    display: inline;
+    background: inherit;
+    padding: inherit;
 }
 
 .logo-wrapper {
@@ -37,6 +40,17 @@ h1 {
     line-height: 36pt;
     color: var(--alabaster);
     letter-spacing: 2pt;
+}
+
+.menu-icon {
+    position: absolute;
+    font-size: 32pt;
+    top: 32px;
+    right: 32px;
+}
+
+#hamburger:checked ~ .hamnav {
+    top: 250px;
 }
 
 
