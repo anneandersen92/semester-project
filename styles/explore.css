@@ -1,17 +1,3 @@
-/* BANNER */
-
-.banner {width: 100%;}
-
-
-
-/* CARDS */
-
-.card-content {gap: 8px;}
-
-.card-details {gap: 16px;}
-
-.card-details p {line-height: 1.6;}
-
 .point-wrapper {
     background: var(--glossy-grape);
     padding: 40px 32px;
@@ -21,24 +7,6 @@
     gap: 16px;
 }
 
-.card:hover {transform: initial;}
-
-img[src="images/kids.jpg"] {filter: saturate(80%);}
-
-img[src="images/teachers.jpg"] {filter: saturate(120%);}
-
-.card-btn-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.ex-mar {margin-bottom: 8px;}
-
-
-
-/* EXPLORE - GET POINTS */
-
 h3 {color: var(--alabaster);}
 
 .point-form {
@@ -47,15 +15,7 @@ h3 {color: var(--alabaster);}
     gap: 4px;
 }
 
-::placeholder {color: var(--dark-charcoal);}
-
-input:focus {outline: solid 2px var(--dark-charcoal);}
-
-input,
-.before,
-#get-points:checked ~ .after {border-radius: 8px;}
-
-input {
+.pointform input {
     width: 100%;
     font-family: var(--body-font);
     font-size: 12pt;
@@ -64,6 +24,14 @@ input {
     padding: 8px 16px;
     border: 1px solid var(--dark-charcoal);
 }
+
+.pointform input,
+.before,
+#get-points:checked ~ .after {border-radius: 8px;}
+
+.pointform input:focus {outline: solid 2px var(--dark-charcoal);}
+
+.point-form::placeholder {color: var(--dark-charcoal);}
 
 .before,
 .after {
@@ -84,3 +52,7 @@ input {
 
 .before:hover,
 .after:hover {cursor: pointer;}
+
+img[src="images/kids.jpg"] {filter: saturate(80%);}
+
+img[src="images/teachers.jpg"] {filter: saturate(120%);}

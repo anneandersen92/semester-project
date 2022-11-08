@@ -266,12 +266,31 @@ header {
     padding: 16px;
 }
 
-.card-details {gap: 4px;}
+.head-p,
+.card-details {gap: 8px;}
+
+.text {gap: 16px}
 
 img[src="images/blogpost_1.jpg"] {
     filter: saturate(70%);
     z-index: 100;
 }
+
+.card-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.no-scale:hover {transform: initial;}
+
+.ex-mar {margin-bottom: 8px;}
+
+
+
+/* BANNER */
+
+.banner {width: 100%;}
 
 
 
