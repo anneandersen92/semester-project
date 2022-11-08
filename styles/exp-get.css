@@ -1,9 +1,6 @@
 /* BANNER */
 
-.banner {
-    width: 100vw;
-    margin: 0 -24px;
-}
+.banner {width: 100%;}
 
 
 
@@ -29,6 +26,14 @@
 img[src="images/kids.jpg"] {filter: saturate(80%);}
 
 img[src="images/teachers.jpg"] {filter: saturate(120%);}
+
+.card-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ex-mar {margin-bottom: 8px;}
 
 
 

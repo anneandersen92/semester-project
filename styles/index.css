@@ -76,23 +76,6 @@ h1 {
 .open-container,
 .entrance-container {gap: 4px;}
 
-.visit-wrapper .btn {padding: 8px 32px;}
-
-.visit-wrapper .btn {background: var(--dark-charcoal);}
-
-.visit-wrapper .btn:hover {font-size: 14pt;}
-
-
-
-/* BUTTONS */
-
-.visit-wrapper .btn {
-    width: 186px;
-    padding: 8px;
-}
-
-.btn-book {background: var(--metallic-seaweed);}
-
 
 
 /* EXPLORE */
@@ -113,6 +96,17 @@ h1 {
 .explore-wrapper p {
     color: var(--alabaster);
 }
+
+
+
+/* BUTTONS */
+
+.visit-wrapper .btn {
+    width: 186px;
+    background: var(--dark-charcoal);
+}
+
+.btn {background: var(--metallic-seaweed);}
 
 .btn-exp {
     background: var(--dark-charcoal);

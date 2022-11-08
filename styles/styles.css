@@ -206,10 +206,12 @@ header {
 }
 
 .btn {
+    width: 100%;
     text-align: center;
     color: var(--alabaster);
-    padding: 8px;
+    padding: 6px;
     display: inline-block;
+    background: var(--english-violet);
     border-radius: 0 8px;
     box-shadow: var(--box-shadow);
     transition: all .8s ease;
@@ -232,13 +234,6 @@ header {
     padding-top: 8px;
 }
 
-.btn-book,
-.btn-read {width: 100%;}
-
-.btn-book {background: var(--english-violet);}
-
-.btn-read {background: var(--glossy-grape);}
-
 
 
 /* CARDS */
@@ -252,7 +247,7 @@ header {
 }
 
 .card-wrapper {
-    row-gap: 24px;
+    gap: 24px;
     align-items: center;
     margin-bottom: 56px;
 }
