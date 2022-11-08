@@ -13,7 +13,7 @@ header {
 
 .logo-wrapper img {
     width: 100%;
-    height: 250px;
+    height: 280px;
     object-fit: cover;
     filter: brightness(80%);
     overflow: hidden;
@@ -45,8 +45,8 @@ h1 {
 .menu-icon {
     position: absolute;
     font-size: 32pt;
-    top: 32px;
-    right: 32px;
+    top: 16px;
+    right: 16px;
     z-index: 1000;
     color: var(--alabaster);
 }
@@ -78,7 +78,7 @@ h1 {
 
 .visit-wrapper {
     text-align: center;
-    margin: 24px 0;
+    margin: 24px 0 32px 0;
     gap: 24px;
 }
 
