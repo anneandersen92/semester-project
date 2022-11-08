@@ -1,2 +1,3 @@
 # semester-project
-Community science project website for semester project 1
+
+Community science museum website for semester project 1

@@ -82,8 +82,11 @@ a {
     font-family: var(--body-font);
     font-size: 12pt;
     line-height: 1.5;
-    color: var(--dark-charcoal);
 }
+
+p {color: var(--black);}
+
+a {color: var(--dark-charcoal);}
 
 .bold {
     font-size: 12pt;
@@ -153,6 +156,7 @@ header {
     backdrop-filter: blur(12px);
     padding: 8% 20%;
     gap: 80px;
+    z-index: 1000;
 }
 
 .hamitems.large,
@@ -275,6 +279,11 @@ header {
 }
 
 .card-details {gap: 4px;}
+
+img[src="images/blogpost_1.jpg"] {
+    filter: saturate(60%);
+    z-index: 100;
+}
 
 
 

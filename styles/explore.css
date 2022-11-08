@@ -3,3 +3,59 @@
 .card-details {gap: 16px;}
 
 .card-details p {line-height: 1.6;}
+
+.point-wrapper {
+    background: var(--glossy-grape);
+    padding: 40px 32px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card:hover {transform: initial;}
+
+h3 {color: var(--alabaster);}
+
+.point-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+::placeholder {color: var(--dark-charcoal);}
+
+input:focus {outline: solid 2px var(--dark-charcoal);}
+
+input {
+    width: 100%;
+    font-family: var(--body-font);
+    font-size: 12pt;
+    letter-spacing: 0.5pt;
+    color: var(--dark-charcoal);
+    padding: 8px 16px;
+    border: 1px solid var(--dark-charcoal);
+    border-radius: 8px;
+}
+
+.btn {
+    background: var(--dark-charcoal);
+    margin-top: 8px;
+}
+
+#get-points,
+.after {display: none;}
+
+#get-points:checked ~ .after {
+    display: inline;
+    font-family: var(--body-font);
+    font-size: 12pt;
+    letter-spacing: 0.5pt;
+    color: var(--dark-charcoal);
+    text-align: center;
+    margin-top: 8px;
+}
+
+img[src="images/kids.jpg"] {filter: saturate(80%);}
+
+img[src="images/teachers.jpg"] {filter: saturate(120%);}
