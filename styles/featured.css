@@ -1,11 +1,7 @@
 .featured-wrapper,
 .featured,
-.event-info,
-.exhibition-info,
-.blogpost-info,
-.event-details,
-.exhibition-details,
-.blogpost-details {
+.featured-info,
+.featured-details {
     display: flex;
     flex-direction: column;
 }
@@ -27,18 +23,12 @@
     width: 100%;
 }
 
-.event-info,
-.exhibition-info,
-.blogpost-info {
+.featured-info {
     gap: 16px;
     padding: 16px;
 }
 
-.event-details,
-.exhibition-details,
-.blogpost-details {
-    gap: 4px;
-}
+.featured-details {gap: 4px;}
 
 
 
@@ -48,9 +38,7 @@
 
 .link-area {align-self: flex-end;}
 
-.event-info .btn-area,
-.exhibition-info .btn-area,
-.blogpost-info .btn-area {
+.featured-info .btn-area {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
