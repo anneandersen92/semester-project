@@ -7,9 +7,7 @@ header {
     padding: inherit;
 }
 
-.logo-wrapper {
-    position: relative;
-}
+.logo-wrapper {position: relative;}
 
 .logo-wrapper img {
     width: 100%;
@@ -69,15 +67,14 @@ h1 {
 }
 
 .visit-wrapper {
+    align-items: center;
     text-align: center;
     margin: 24px 0 32px 0;
     gap: 24px;
 }
 
 .open-container,
-.entrance-container {
-    gap: 4px;
-}
+.entrance-container {gap: 4px;}
 
 .visit-wrapper .btn {padding: 8px 32px;}
 
@@ -88,6 +85,11 @@ h1 {
 
 
 /* BUTTONS */
+
+.visit-wrapper .btn {
+    width: 186px;
+    padding: 8px;
+}
 
 .btn-book {background: var(--metallic-seaweed);}
 
@@ -110,12 +112,6 @@ h1 {
 .explore-wrapper h2,
 .explore-wrapper p {
     color: var(--alabaster);
-}
-
-.explore-wrapper .btn-area {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .btn-exp {

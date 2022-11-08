@@ -1,3 +1,14 @@
+/* BANNER */
+
+.banner {
+    width: 100vw;
+    margin: 0 -24px;
+}
+
+
+
+/* CARDS */
+
 .card-content {gap: 8px;}
 
 .card-details {gap: 16px;}
@@ -14,6 +25,14 @@
 }
 
 .card:hover {transform: initial;}
+
+img[src="images/kids.jpg"] {filter: saturate(80%);}
+
+img[src="images/teachers.jpg"] {filter: saturate(120%);}
+
+
+
+/* EXPLORE - GET POINTS */
 
 h3 {color: var(--alabaster);}
 
@@ -57,7 +76,3 @@ input {
 #get-points,
 .after,
 #get-points:checked ~ .before {display: none;}
-
-img[src="images/kids.jpg"] {filter: saturate(80%);}
-
-img[src="images/teachers.jpg"] {filter: saturate(120%);}
