@@ -64,7 +64,7 @@ h1,
     letter-spacing: 2pt;
 }
 
-h1 {padding: 24px 0;}
+h1 {margin: 24px 0;}
 
 h2,
 .hamitems.small a {
@@ -121,6 +121,8 @@ header {
     color: var(--alabaster);
 }
 
+
+
 /* NAV */
 
 .menu-icon {
@@ -155,6 +157,26 @@ header {
 
 .hamitems.large,
 .hamitems.small {gap: 40px;}
+
+
+
+/* BREADCRUMB NAV */
+.breaditems {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    padding: 0;
+}
+
+.breaditems li {
+    font-family: var(--body-font);
+    font-size: 12pt;
+}
+
+.index {text-transform: uppercase;}
+
+.current {font-weight: bold;}
 
 
 
