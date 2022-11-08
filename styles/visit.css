@@ -9,6 +9,8 @@
     margin-bottom: 24px;
 }
 
+.form-wrapper {margin-bottom: 40px;}
+
 form,
 select,
 input,
@@ -28,9 +30,6 @@ form,
 }
 
 select,
-.date {text-indent: -3px;}
-
-select,
 input,
 textarea {
     border: 1px solid var(--dark-charcoal);
@@ -38,6 +37,9 @@ textarea {
     border-radius: 8px;
     background: none;
 }
+
+select,
+.date {padding: 8px 13px;}
 
 .quantity-container {
     display: flex;
