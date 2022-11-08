@@ -74,10 +74,13 @@ input {
 
 .check-icon {font-size: 18pt;}
 
-.after {padding: 4.25px;}
+.after {padding: 5px;}
 
 #get-points:checked ~ .after {display: inline-block;}
 
 #get-points,
 .after,
 #get-points:checked ~ .before {display: none;}
+
+.before:hover,
+.after:hover {cursor: pointer;}

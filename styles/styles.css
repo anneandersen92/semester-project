@@ -10,7 +10,7 @@
     --black: #000000;
     --box-shadow: 1px 1px 6px #33333380;
     --header-font: "Monomaniac One";
-    --body-font: "Open Sans", sans-serif, Verdana, Geneva, Tahoma;
+    --body-font: "Open Sans", sans-serif;
 }
 
 * {box-sizing: border-box;}
@@ -200,7 +200,7 @@ header {
 .btn,
 .link {
     font-family: var(--body-font);
-    font-size: 12pt;
+    font-size: 11pt;
     font-weight: bold;
     letter-spacing: 1pt;
 }
@@ -269,7 +269,7 @@ header {
 .card-details {gap: 4px;}
 
 img[src="images/blogpost_1.jpg"] {
-    filter: saturate(60%);
+    filter: saturate(70%);
     z-index: 100;
 }
 
