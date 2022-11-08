@@ -27,6 +27,10 @@ h3 {color: var(--alabaster);}
 
 input:focus {outline: solid 2px var(--dark-charcoal);}
 
+input,
+.before,
+#get-points:checked ~ .after {border-radius: 8px;}
+
 input {
     width: 100%;
     font-family: var(--body-font);
@@ -35,26 +39,24 @@ input {
     color: var(--dark-charcoal);
     padding: 8px 16px;
     border: 1px solid var(--dark-charcoal);
-    border-radius: 8px;
 }
 
-.btn {
+.before,
+.after {
     background: var(--dark-charcoal);
     margin-top: 8px;
+    padding: 9px;
 }
+
+.check-icon {font-size: 18pt;}
+
+.after {padding: 4.25px;}
+
+#get-points:checked ~ .after {display: inline-block;}
 
 #get-points,
-.after {display: none;}
-
-#get-points:checked ~ .after {
-    display: inline;
-    font-family: var(--body-font);
-    font-size: 12pt;
-    letter-spacing: 0.5pt;
-    color: var(--dark-charcoal);
-    text-align: center;
-    margin-top: 8px;
-}
+.after,
+#get-points:checked ~ .before {display: none;}
 
 img[src="images/kids.jpg"] {filter: saturate(80%);}
 
