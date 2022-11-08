@@ -180,13 +180,17 @@ header {
 
 
 
-/* BUTTONS */
+/* BUTTONS & LINKS */
 
-.btn {
+.btn,
+.link {
     font-family: var(--body-font);
     font-size: 12pt;
     font-weight: bold;
     letter-spacing: 1pt;
+}
+
+.btn {
     text-align: center;
     color: var(--alabaster);
     padding: 8px;
@@ -196,6 +200,9 @@ header {
     transition: all .8s ease;
 }
 
+.link {color: var(--dark-charcoal);}
+
+.link-area {align-self: flex-end;}
 
 
 /* FOOTER */

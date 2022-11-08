@@ -90,7 +90,7 @@ h1 {
 .featured-wrapper {
     row-gap: 24px;
     align-items: center;
-    margin-bottom: 48px;
+    margin-bottom: 56px;
 }
 
 .featured {
@@ -121,21 +121,14 @@ h1 {
 
 /* BUTTONS AND BUTTON AREAS */
 
-.btn-area-all {width: 80%;}
-
-.btn-all,
 .btn-book,
 .btn-read {width: 100%;}
 
 .visit-wrapper .btn {padding: 8px 32px;}
 
-.visit-wrapper .btn,
-.btn-all {background: var(--dark-charcoal);}
+.visit-wrapper .btn {background: var(--dark-charcoal);}
 
-.visit-wrapper .btn:hover,
-.btn-all:hover {
-    font-size: 14pt;
-}
+.visit-wrapper .btn:hover {font-size: 14pt;}
 
 .event-info .btn-area,
 .exhibition-info .btn-area,
