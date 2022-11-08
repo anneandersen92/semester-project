@@ -90,6 +90,7 @@ h1 {
 .featured-wrapper {
     row-gap: 24px;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .featured {
@@ -157,7 +158,7 @@ h1 {
     background: var(--glossy-grape);
     border-radius: 20px;
     padding: 32px 48px;
-    margin: 48px 0;
+    margin-bottom: 48px;
     display: flex;
     flex-direction: column;
     align-items: center;
