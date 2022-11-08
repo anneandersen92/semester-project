@@ -41,15 +41,21 @@ h3,
 .hamitems.large a,
 p,
 .bold,
-a {margin: 0;}
+a {
+    margin: 0;
+}
 
 h1,
 h2,
 h3,
+.bold,
 .hamitems.small a,
-.hamitems.large a {
+.hamitems.large a,
+.logo-name,
+.footer-head {
     font-family: var(--header-font);
     color: var(--dark-charcoal);
+    font-weight: normal;
 }
 
 h1,
@@ -80,7 +86,6 @@ a {
 }
 
 .bold {
-    font-family: var(--header-font);
     font-size: 12pt;
     letter-spacing: 0.5pt;
 }
@@ -111,7 +116,6 @@ header {
 }
 
 .logo-name {
-    font-family: var(--header-font);
     font-size: 16pt;
     letter-spacing: 1px;
     color: var(--alabaster);
@@ -191,7 +195,6 @@ footer {
 .footer-section {gap: 6px;}
 
 .footer-head {
-    font-family: var(--header-font);
     font-size: 14pt;
     letter-spacing: 2px;
     color: var(--alabaster);

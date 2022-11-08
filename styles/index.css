@@ -157,7 +157,7 @@ h1 {
     background: var(--glossy-grape);
     border-radius: 20px;
     padding: 32px 48px;
-    margin-bottom: 48px;
+    margin: 48px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
