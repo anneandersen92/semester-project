@@ -29,8 +29,6 @@ h3 {color: var(--alabaster);}
 .before,
 #get-points:checked ~ .after {border-radius: 8px;}
 
-.pointform input:focus {outline: solid 2px var(--dark-charcoal);}
-
 .point-form::placeholder {color: var(--dark-charcoal);}
 
 .before,

@@ -22,10 +22,6 @@ textarea {
 
 ::placeholder {color: var(--metallic-seaweed);}
 
-select:focus,
-input:focus,
-textarea:focus {outline: solid 2px var(--metallic-seaweed);}
-
 form,
 .opening-hours,
 .location {
@@ -72,7 +68,10 @@ select,
     background: var(--metallic-seaweed);
 }
 
-.map {width: 100%;}
+iframe {
+    width: 100%;
+    height: 300px;
+}
 
 .info-section,
 .info-section-h,
