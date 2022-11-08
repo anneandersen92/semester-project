@@ -175,6 +175,7 @@ header {
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 4px;
     padding: 0;
 }
@@ -209,6 +210,71 @@ header {
     box-shadow: var(--box-shadow);
     transition: all .8s ease;
 }
+
+.link {color: var(--dark-charcoal);}
+
+.link-area {align-self: flex-end;}
+
+.blog .link,
+.arrow-icon {color: var(--english-violet);}
+
+.arrow-icon {font-size: 16pt;}
+
+.blog .link-area {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.card-content .btn-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.btn-book,
+.btn-read {width: 100%;}
+
+.btn-book {background: var(--english-violet);}
+
+.btn-read {background: var(--glossy-grape);}
+
+
+
+/* CARD */
+
+.card-wrapper,
+.card,
+.card-content,
+.card-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-wrapper {
+    row-gap: 24px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.card {
+    background: var(--alabaster);
+    transition: all 0.5s ease;
+}
+
+.card:hover {transform: scale(1.02);}
+
+.card img {
+    width: 100%;
+}
+
+.card-content {
+    gap: 16px;
+    padding: 16px;
+}
+
+.card-details {gap: 4px;}
 
 
 

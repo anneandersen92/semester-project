@@ -98,7 +98,7 @@ select,
     align-items: center;
     margin: 48px auto;
     gap: 24px;
-    border: solid 1px var(--dark-charcoal);
+    border: solid 1px var(--charcoal);
     padding: 40px 0;
     background: var(--alabaster);
     border-radius: 20px;
