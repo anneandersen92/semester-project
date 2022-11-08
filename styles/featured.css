@@ -1,0 +1,65 @@
+.featured-wrapper,
+.featured,
+.event-info,
+.exhibition-info,
+.blogpost-info,
+.event-details,
+.exhibition-details,
+.blogpost-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-wrapper {
+    row-gap: 24px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.featured {
+    background: var(--alabaster);
+    transition: all 0.5s ease;
+}
+
+.featured:hover {transform: scale(1.02);}
+
+.featured img {
+    width: 100%;
+}
+
+.event-info,
+.exhibition-info,
+.blogpost-info {
+    gap: 16px;
+    padding: 16px;
+}
+
+.event-details,
+.exhibition-details,
+.blogpost-details {
+    gap: 4px;
+}
+
+
+
+/* BUTTONS & LINKS */
+
+.link {color: var(--dark-charcoal);}
+
+.link-area {align-self: flex-end;}
+
+.event-info .btn-area,
+.exhibition-info .btn-area,
+.blogpost-info .btn-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.btn-book,
+.btn-read {width: 100%;}
+
+.btn-book {background: var(--english-violet);}
+
+.btn-read {background: var(--glossy-grape);}

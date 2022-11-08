@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* GLOBAL STYLES */
 
 :root {
     --dark-charcoal: #333333;
@@ -8,7 +8,7 @@
     --alabaster: #f2f2e9;
     --metallic-seaweed: #207c95;
     --black: #000000;
-    --box-shadow: #33333380;
+    --box-shadow: 1px 1px 6px #33333380;
     --header-font: "Monomaniac One";
     --body-font: "Open Sans", sans-serif, Verdana, Geneva, Tahoma;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    margin: 0 32px;
+    margin: 0 24px;
 }
 
 
@@ -158,9 +158,19 @@ header {
 .hamitems.large,
 .hamitems.small {gap: 40px;}
 
+#active {
+    color: var(--metallic-seaweed);
+    text-decoration: underline 3px var(--metallic-seaweed);
+}
+
+.hamitems.large #active {font-size: 32pt;}
+
+.hamitems.small #active {font-size: 28pt;}
+
 
 
 /* BREADCRUMB NAV */
+
 .breaditems {
     list-style: none;
     display: flex;
@@ -196,13 +206,10 @@ header {
     padding: 8px;
     display: inline-block;
     border-radius: 0 8px;
-    box-shadow: 1px 1px 6px var(--box-shadow);
+    box-shadow: var(--box-shadow);
     transition: all .8s ease;
 }
 
-.link {color: var(--dark-charcoal);}
-
-.link-area {align-self: flex-end;}
 
 
 /* FOOTER */
