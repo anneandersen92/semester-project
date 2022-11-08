@@ -38,6 +38,17 @@
 
 .link-area {align-self: flex-end;}
 
+.blog .link,
+.arrow-icon {color: var(--english-violet);}
+
+.arrow-icon {font-size: 16pt;}
+
+.blog .link-area {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
 .featured-info .btn-area {
     display: flex;
     flex-direction: row;
