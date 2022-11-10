@@ -286,11 +286,15 @@ img[src="images/blogpost_1.jpg"] {
 /* FORMS */
 
 .form-wrapper,
-form {
+form,
+.input-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
+
+.form-wrapper {gap: 16px;}
+
+form {gap: 24px;}
 
 .form-wrapper {margin-bottom: 40px; }
 
@@ -300,12 +304,6 @@ form {
     border-radius: 8px;
     padding: 24px;
     margin-bottom: 8px;
-}
-
-.input-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 select,
@@ -333,7 +331,7 @@ select,
 
 label {
     width: 90%;
-    padding: 8px 0;
+    padding: 4px 0;
     font-weight: 600;
     align-self: center;
     text-align: center;
