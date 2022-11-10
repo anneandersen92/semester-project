@@ -53,8 +53,8 @@ h1,
 h2,
 h3,
 .bold,
-.hamitems.small a,
 .hamitems.large a,
+.hamitems.small a,
 .logo-name,
 .footer-head {
     font-family: var(--header-font);
@@ -62,21 +62,20 @@ h3,
     font-weight: normal;
 }
 
-h1,
-.hamitems.large a {
+h1 {
     font-size: 24pt;
     letter-spacing: 2pt;
+    margin: 24px 0;
 }
 
-h1 {margin: 24px 0;}
-
 h2,
-.hamitems.small a {
+.hamitems.large a {
     font-size: 20pt;
     letter-spacing: 1pt;
 }
 
-h3 {
+h3,
+.hamitems.small a {
     font-size: 16pt;
     letter-spacing: 0.5pt; 
 }
@@ -155,8 +154,7 @@ header {
     left: 0%;
     width: 100%;
     height: 100%;
-    background: #f2f2e999;
-    backdrop-filter: blur(25px);
+    background: var(--alabaster);
     padding: 8% 20%;
     gap: 80px;
     z-index: 1000;
@@ -170,9 +168,9 @@ header {
     text-decoration: underline 3px var(--metallic-seaweed);
 }
 
-.hamitems.large #active {font-size: 32pt;}
+.hamitems.large #active {font-size: 30pt;}
 
-.hamitems.small #active {font-size: 28pt;}
+.hamitems.small #active {font-size: 22pt;}
 
 
 
