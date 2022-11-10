@@ -252,7 +252,7 @@ header {
 }
 
 .card-wrapper {
-    gap: 24px;
+    gap: 32px;
     align-items: center;
     margin-bottom: 56px;
 }

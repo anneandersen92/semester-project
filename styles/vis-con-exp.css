@@ -8,6 +8,8 @@
     margin-bottom: 40px;
 }
 
+.about-wrapper {gap: 24px;}
+
 .opening-hours,
 .location {
     display: flex;
