@@ -9,8 +9,8 @@
     --metallic-seaweed: #207c95;
     --black: #000000;
     --box-shadow: 1px 1px 6px #33333380;
-    --header-font: "Monomaniac One";
-    --body-font: "Open Sans", sans-serif;
+    --header-font: "Monomaniac One", 'Bahnschrift Condensed', 'Franklin Gothic Demi Cond', 'Arial Narrow';
+    --body-font: "Open Sans", Sans-serif, Verdana, Tahoma, Arial;
 }
 
 * {box-sizing: border-box;}
@@ -204,8 +204,6 @@ header {
 
 .btn,
 .link {
-    font-family: var(--body-font);
-    font-size: 11pt;
     font-weight: bold;
     letter-spacing: 1pt;
 }
