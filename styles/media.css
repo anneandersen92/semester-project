@@ -37,6 +37,8 @@
         padding: 0;
         margin-bottom: 0;
     }
+
+    .point-form input {width: 100%;}
     
     .point-form ::placeholder {
         text-align: left;
