@@ -1,0 +1,49 @@
+@media only screen and (min-width: 760px) {
+    /* FORMS */
+
+    .input-wrapper {
+        flex-direction: row;
+    }
+
+    select,
+    input,
+    textarea {
+        width: 80%;
+        min-width: 275px;
+        max-height: 38px;
+    }
+
+    label {
+        width: 100%;
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    select,
+    input,
+    textarea,
+    ::placeholder {
+        text-align: left;
+    }
+
+
+
+    /* POINT FORM */
+
+    .point-form {
+        gap: 8px;
+        background: none;
+        border: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    .point-form ::placeholder {
+        text-align: left;
+    }
+    
+    .point-form .check-icon {
+        font-size: 18pt;
+        color: var(--alabaster);
+    }
+}

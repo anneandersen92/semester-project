@@ -12,7 +12,7 @@
         <link rel="preload" as="style" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
         <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="styles/visit-conf.css">
+        <link rel="stylesheet" href="styles/vis-con-exp.css">
         <link rel="stylesheet" href="styles/media.css">
     </head>
     <body>
@@ -60,52 +60,39 @@
             <section class="form-wrapper">
                 <h2>Booking</h2>
                 <form>
-                    <div class="select-menu">
-                        <select name="booking" class="booking">
-                            <option value="0">Select your booking</option>
+                    <div class="input-wrapper">
+                        <label for="booking">What do you want to do at the museum?</label>
+                        <select class="booking" name="booking">
+                            <option value="0">select your activity here...</option>
                             <option value="1">Admission ticket</option>
                             <option value="2">Event</option>
                             <option value="3">Exhibition</option>
                             <option value="4">Einstein / Holiday Club</option>
                         </select>
                     </div>
-                    <div>
-                        <input name="name" type="text" class="name" placeholder="Name" required aria-label="name">
-                        <label for="name"></label>
+                    <div class="input-wrapper">
+                        <label for="name">Who is booking the visit?</label>
+                        <input type="text" class="name" name="name" placeholder="write the name here..." required aria-label="name">
                     </div>
-                    <div>
-                        <input name="email" type="email" class="email" placeholder="Email" required aria-label="email">
-                        <label for="email"></label>
+                    <div class="input-wrapper">
+                        <label for="email">What email do you want your booking sent to?</label>
+                        <input type="email" class="email" name="email" placeholder="write the email here..." required aria-label="email">
                     </div>
-                    <div>
-                        <input name="date" type="date" class="date" placeholder="Visiting date" required aria-label="date">
-                        <label for="date"></label>
+                    <div class="input-wrapper">
+                        <label for="date">When are you visiting the museum?</label>
+                        <input type="date" class="date" name="date" placeholder="choose date..." required aria-label="date">
                     </div>
-                    <div>
-                        <div>
-                            <input name="adults" type="text" class="adults" placeholder="Adults" aria-label="adults">
-                            <label for="adults"></label>
-                        </div>
-                        <div class="quantity-container">
-                            <button class="cart-icon subtract-icon" title="subtract product" aria-label="subtract product icon"><span class="material-icons-outlined cart-icon subtract-icon">remove_circle_outline</span></button>
-                            <p class="small quantity">1</p>
-                            <button class="cart-icon add-icon" title="Add product" aria-label="add product"><span class="material-icons-outlined cart-icon add-icon">add_circle_outline</span></button>
-                        </div>
+                    <div class="input-wrapper">
+                        <label for="adults">How many adults are coming?</label>
+                        <input type="number" class="adults" name="adults" placeholder="choose number of adults..." min="0" max="100" aria-label="adults">
                     </div>
-                    <div>
-                        <div>
-                            <input name="children" type="text" class="children" placeholder="Children" aria-label="children">
-                            <label for="children"></label>
-                        </div>
-                        <div class="quantity-container">
-                            <button class="cart-icon subtract-icon" title="subtract product" aria-label="subtract product icon"><span class="material-icons-outlined cart-icon subtract-icon">remove_circle_outline</span></button>
-                            <p class="small quantity">2</p>
-                            <button class="cart-icon add-icon" title="Add product" aria-label="add product"><span class="material-icons-outlined cart-icon add-icon">add_circle_outline</span></button>
-                        </div>
+                    <div class="input-wrapper">
+                        <label for="children">How many children are coming?</label>
+                        <input type="number" class="children" name="children" placeholder="choose number of children..." min="0" max="100" aria-label="children">
                     </div>
-                    <div>
-                        <textarea name="message" class="message" rows="6" placeholder="Message (optional)"  aria-label="message area"></textarea>
-                        <label for="message"></label>
+                    <div class="input-wrapper">
+                        <label for="message">Is there anything you would like us to know before your visit?</label>
+                        <textarea class="message" name="message" rows="1" placeholder="type your message here..."  aria-label="message area"></textarea>
                     </div>
                 </form>
                 <a href="confirmation.html" class="btn">Book now</a>

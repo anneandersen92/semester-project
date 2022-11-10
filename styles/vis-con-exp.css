@@ -1,0 +1,77 @@
+/* VISIT */
+
+.visit-info,
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.opening-hours,
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.information-wrapper {gap: 24px;}
+
+.info-section,
+.info-section-h,
+.information-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section,
+.info-section-h {gap: 8px;}
+
+.info-section-h {flex-direction: row;}
+
+
+
+/* CONFIRMATION */
+
+.confirmation-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px auto;
+    gap: 24px;
+    border: solid 1px var(--charcoal);
+    padding: 40px 0;
+    background: var(--alabaster);
+    border-radius: 20px;
+}
+
+.check-icon {
+    font-size: 40pt;
+    color: var(--metallic-seaweed);
+}
+
+.confirmation-wrapper h1 {margin: 0;}
+
+
+
+/* EXPLORE */
+
+.point-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: var(--glossy-grape);
+    padding: 40px 32px;
+    border-radius: 20px;
+}
+
+.point-wrapper h3 {color: var(--alabaster);}
+
+img[src="images/kids.jpg"] {filter: saturate(80%);}
+
+img[src="images/teachers.jpg"] {filter: saturate(120%);}

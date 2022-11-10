@@ -14,7 +14,7 @@
         <link rel="preload" as="style" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
         <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="styles/explore.css">
+        <link rel="stylesheet" href="styles/vis-con-exp.css">
         <link rel="stylesheet" href="styles/media.css">
     </head>
     <body>
@@ -69,16 +69,11 @@
                     <h3>Get your Einstein Club points</h3>
                     <p>Fill in the title of the blog post you have read and the phone number you want us to send the Club points to.</p>
                     <form class="point-form">
-                        <input name="blog" type="text" class="blog" placeholder="Blog post title" required aria-label="blog post title">
-                        <label for="blog"></label>
-
-                        <input name="phone" type="tel" class="phone" placeholder="Phone number" required aria-label="phone number">
-                        <label for="phone"></label>
-
+                        <input type="text" class="blog" name="blog" placeholder="Blog post title" required aria-label="blog post title">
+                        <input type="tel" class="phone" name="phone" placeholder="Phone number" required aria-label="phone number">
                         <input type="checkbox" id="get-points">
                         <label for="get-points" class="btn before">Get points</label>
                         <label for="get-points" class="btn after"><span class="material-icons-outlined check-icon" title="Confirmation tick" aria-label="Confirmation tick">check_circle</span></label>
-
                     </form>
                 </div>
                 <div class="card no-scale">
