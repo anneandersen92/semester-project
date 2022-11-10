@@ -281,6 +281,8 @@ img[src="images/blogpost_1.jpg"] {
 
 .ex-mar {margin-bottom: 8px;}
 
+.card.one br {display: none;}
+
 
 
 /* FORMS */
@@ -292,7 +294,9 @@ form,
     flex-direction: column;
 }
 
-.form-wrapper {gap: 16px;}
+.form-wrapper {
+    gap: 16px;
+    width: 100%;}
 
 form {gap: 24px;}
 

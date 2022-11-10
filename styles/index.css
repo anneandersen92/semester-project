@@ -59,6 +59,8 @@ h1 {
 
 /* OPENING HOURS & VISIT */
 
+.visit-link {display: none;}
+
 .visit-wrapper,
 .open-container,
 .entrance-container {
@@ -76,6 +78,8 @@ h1 {
 .open-container,
 .entrance-container {gap: 4px;}
 
+.card.three {display: none;}
+
 
 
 /* EXPLORE */
@@ -87,7 +91,6 @@ h1 {
     margin-bottom: 56px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 16px;
     box-shadow: var(--box-shadow);
 }

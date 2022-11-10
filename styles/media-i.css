@@ -1,0 +1,147 @@
+@media only screen and (min-width: 767px) {
+
+    /* OPENING HOURS & VISIT */
+
+    .entrance-container,
+    .visit-btn {display: none;}
+
+    .visit-link {display: inline;}
+
+    .open-container {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .visit-wrapper {
+        width: 100vw;
+        margin-top: -4px;
+        margin-left: -40px;
+        flex-direction: row;
+        background: var(--metallic-seaweed);
+        justify-content: center;
+        padding: 16px 0;
+        gap: 24px;
+    }
+
+    .visit-wrapper h2,
+    .visit-wrapper p,
+    .visit-link {
+        font-family: var(--body-font);
+        font-size: 12pt;
+        color: var(--alabaster);
+        line-height: 1;
+        letter-spacing: 0.5pt;
+    }
+
+    .visit-wrapper h2,
+    .visit-wrapper p {font-weight: 600;}
+
+
+    /* CARDS */
+
+    .card.one {grid-area: card-one;}
+    .card.two {grid-area: card-two;}
+    .card.three {grid-area: card-three;}
+    .link {grid-area: link;}
+
+    .card-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "card-one card-two"
+        " . link";
+        column-gap: 24px;
+        row-gap: 16px;
+    }
+
+    .link {justify-self: end;}
+
+    .card.one br {display: inline;}
+
+    .card.three {display: flex;}
+
+    .exhibitions{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "card-one card-two card-three"
+        " . . link";
+    }
+
+    .btn {background: var(--english-violet);}
+
+
+    /* EXPLORE */
+
+    .explore-wrapper {
+        border-radius: 0;
+        width: 100vw;
+        margin-left: -40px;
+        background: var(--metallic-seaweed);
+        text-align: center;
+        align-items: center;
+    }
+
+    .explore-wrapper h2,
+    .btn-exp {width: 270px;}
+
+    .explore-wrapper p {width: 400px;}
+
+    .btn-exp {
+        transition: none;
+        background: var(--alabaster);
+        color: var(--dark-charcoal);
+    }
+
+    .btn-exp:hover {
+        background: initial;
+        color: initial;
+        transform: initial;
+    }
+}
+
+@media only screen and (min-width: 848px) {
+
+    .card.one br {display: none;}
+}
+
+@media only screen and (min-width: 950px) {
+
+        /* HEADER */
+
+        .science-icon {font-size: 50pt;}
+
+        h1 {
+            font-size: 40pt;
+            line-height: 44pt;
+            margin: 0;
+        }
+    
+        .logo-wrapper img {height: 300px;}
+        
+        .logo-wrapper {grid-area: logo;}
+        .menu {grid-area: nav;}
+    
+        header {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "nav"
+            "logo";
+            gap: 0;
+            padding: 0;
+        }
+
+    
+        /* NAV */
+    
+        .hamnav {
+            justify-content: flex-end;
+            height: 80px;
+            padding: 0 40px;
+        }
+
+        .hamitems.large a,
+        .hamitems.small a {width: auto;}
+}

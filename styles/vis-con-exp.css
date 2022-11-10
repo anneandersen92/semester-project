@@ -8,7 +8,10 @@
     margin-bottom: 40px;
 }
 
-.about-wrapper {gap: 24px;}
+.about-wrapper {
+    width: 100%;
+    gap: 24px;
+}
 
 .opening-hours,
 .location {
@@ -44,7 +47,8 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 48px auto;
+    text-align: center;
+    margin: 48px 0;
     gap: 24px;
     border: solid 1px var(--charcoal);
     padding: 40px 0;
