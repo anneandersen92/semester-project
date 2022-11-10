@@ -379,7 +379,6 @@ textarea,
 .after,
 #get-points:checked ~ .before {display: none;}
 
-.cart-icon:hover,
 .before:hover,
 .after:hover {cursor: pointer;}
 
