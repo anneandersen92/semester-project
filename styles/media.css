@@ -1,4 +1,4 @@
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 767px) {
     /* FORMS */
 
     .input-wrapper {
@@ -10,8 +10,10 @@
     textarea {
         width: 80%;
         min-width: 275px;
-        max-height: 38px;
     }
+
+    select,
+    input {max-height: 40px;}
 
     label {
         width: 100%;
@@ -48,4 +50,12 @@
         font-size: 18pt;
         color: var(--alabaster);
     }
+}
+
+
+
+@media only screen and (min-width: 973px) {
+    /* FORMS */
+
+    textarea {max-height: 40px;}
 }

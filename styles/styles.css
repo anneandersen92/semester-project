@@ -15,14 +15,14 @@
 
 * {box-sizing: border-box;}
 
+* img {width: 100%;}
+
 body {
     width: 100vw;
     margin: 0;
 }
 
-main {
-    margin: 0 24px;
-}
+main {margin: 0 24px;}
 
 
 
@@ -47,9 +47,7 @@ h3,
 .hamitems.large a,
 p,
 .bold,
-a {
-    margin: 0;
-}
+a {margin: 0;}
 
 h1,
 h2,
@@ -80,7 +78,7 @@ h2,
 
 h3 {
     font-size: 16pt;
-    letter-spacing: 0.5pt;
+    letter-spacing: 0.5pt; 
 }
 
 p,
@@ -242,9 +240,12 @@ header {
 /* CARDS */
 
 .card-wrapper,
+.card-btn-wrapper,
 .card,
 .card-content,
-.card-details {
+hgroup,
+.paragraph,
+.text-field {
     display: flex;
     flex-direction: column;
 }
@@ -255,45 +256,32 @@ header {
     margin-bottom: 56px;
 }
 
-.card {
+.card-btn-wrapper,
+.card-content,
+.text-field {gap: 16px;}
+
+.card,
+.paragraph {
     background: var(--alabaster);
     transition: all 0.5s ease;
 }
 
+.card-content,
+.paragraph {padding: 16px;}
+
+hgroup,
+.paragraph {gap: 8px;}
+
 .card:hover {transform: scale(1.02);}
 
-.card img {width: 100%;}
-
-.card-content {
-    gap: 16px;
-    padding: 16px;
-}
-
-.head-p,
-.card-details {gap: 8px;}
-
-.text {gap: 16px}
+.no-scale:hover {transform: initial;}
 
 img[src="images/blogpost_1.jpg"] {
     filter: saturate(70%);
     z-index: 100;
 }
 
-.card-btn-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.no-scale:hover {transform: initial;}
-
 .ex-mar {margin-bottom: 8px;}
-
-
-
-/* BANNER */
-
-.banner {width: 100%;}
 
 
 
@@ -431,6 +419,7 @@ footer p,
 footer a {
     color: var(--alabaster);
     letter-spacing: 0.5px;
+    font-style: normal;
 }
 
 footer a:hover {text-decoration: underline 1.5px var(--alabaster);}
