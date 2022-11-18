@@ -1,4 +1,70 @@
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 600px) {
+
+    /* CARDS */
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {height: 100%;}
+
+    .card-content {
+        gap: 0;
+        justify-content: space-between;
+        min-height: 220px;
+    }
+
+
+    /* EXPLORE */
+
+    .explore-wrapper h2,
+    .btn-exp {width: 270px;}
+
+    .explore-wrapper p {width: 400px;}
+
+}
+
+@media only screen and (min-width: 950px) {
+
+    /* HEADER */
+
+    .science-icon {font-size: 50pt;}
+
+    h1 {
+        font-size: 40pt;
+        line-height: 44pt;
+        margin: 0;
+    }
+
+    .logo-wrapper img {height: 300px;}
+    
+    .logo-wrapper {grid-area: logo;}
+    .menu {grid-area: nav;}
+
+    header {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "nav"
+        "logo";
+        gap: 0;
+        padding: 0;
+    }
+
+
+    /* NAV */
+
+    .hamnav {
+        justify-content: flex-end;
+        height: 80px;
+        padding: 0 40px;
+    }
+
+    .hamitems.large a,
+    .hamitems.small a {width: auto;}
+
 
     /* OPENING HOURS & VISIT */
 
@@ -12,10 +78,13 @@
         gap: 8px;
     }
 
+    .hello {height: 80px;}
+
     .visit-wrapper {
-        width: 100vw;
+        position: absolute;
+        left: 0;
+        width: 100%;
         margin-top: -4px;
-        margin-left: -40px;
         flex-direction: row;
         background: var(--metallic-seaweed);
         justify-content: center;
@@ -39,109 +108,11 @@
 
     /* CARDS */
 
-    .card.one {grid-area: card-one;}
-    .card.two {grid-area: card-two;}
-    .card.three {grid-area: card-three;}
-    .link {grid-area: link;}
+    .card.hide {display: flex;}
 
-    .card-wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-        "card-one card-two"
-        " . link";
-        column-gap: 24px;
-        row-gap: 16px;
-    }
+    .exhibitions .card-wrapper {grid-template-columns: 1fr 1fr 1fr;}
 
-    .link {justify-self: end;}
+    .card-content {min-height: 250px;}
 
-    .card.one br {display: inline;}
-
-    .card.three {display: flex;}
-
-    .exhibitions{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-        "card-one card-two card-three"
-        " . . link";
-    }
-
-    .btn {background: var(--english-violet);}
-
-
-    /* EXPLORE */
-
-    .explore-wrapper {
-        border-radius: 0;
-        width: 100vw;
-        margin-left: -40px;
-        background: var(--metallic-seaweed);
-        text-align: center;
-        align-items: center;
-    }
-
-    .explore-wrapper h2,
-    .btn-exp {width: 270px;}
-
-    .explore-wrapper p {width: 400px;}
-
-    .btn-exp {
-        transition: none;
-        background: var(--alabaster);
-        color: var(--dark-charcoal);
-    }
-
-    .btn-exp:hover {
-        background: initial;
-        color: initial;
-        transform: initial;
-    }
-}
-
-@media only screen and (min-width: 848px) {
-
-    .card.one br {display: none;}
-}
-
-@media only screen and (min-width: 950px) {
-
-        /* HEADER */
-
-        .science-icon {font-size: 50pt;}
-
-        h1 {
-            font-size: 40pt;
-            line-height: 44pt;
-            margin: 0;
-        }
-    
-        .logo-wrapper img {height: 300px;}
-        
-        .logo-wrapper {grid-area: logo;}
-        .menu {grid-area: nav;}
-    
-        header {
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: auto;
-            grid-template-areas:
-            "nav"
-            "logo";
-            gap: 0;
-            padding: 0;
-        }
-
-    
-        /* NAV */
-    
-        .hamnav {
-            justify-content: flex-end;
-            height: 80px;
-            padding: 0 40px;
-        }
-
-        .hamitems.large a,
-        .hamitems.small a {width: auto;}
+    .blogposts .card-content {min-height: 200px;}
 }

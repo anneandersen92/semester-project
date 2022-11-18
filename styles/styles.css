@@ -1,3 +1,4 @@
+
 /* GLOBAL STYLES */
 
 :root {
@@ -22,14 +23,12 @@ body {
     margin: 0;
 }
 
-main {margin: 0 24px;}
-
+main {padding: 0 24px;}
 
 
 /* ACCESSIBILITY */
 
 *:focus {outline: solid 2px var(--dark-charcoal);}
-
 
 
 /* FONTS */
@@ -70,6 +69,7 @@ h1 {
 
 h2,
 .hamitems.large a {
+    line-height: normal;
     font-size: 20pt;
     letter-spacing: 1pt;
 }
@@ -99,7 +99,6 @@ a {color: var(--dark-charcoal);}
 a {text-decoration: none;}
 
 
-
 /* HEADER */
 
 header {
@@ -126,7 +125,6 @@ header {
     letter-spacing: 1px;
     color: var(--alabaster);
 }
-
 
 
 /* NAV */
@@ -173,7 +171,6 @@ header {
 .hamitems.small #active {font-size: 22pt;}
 
 
-
 /* BREADCRUMB NAV */
 
 .breaditems {
@@ -195,7 +192,6 @@ header {
 .current {font-weight: bold;}
 
 
-
 /* BUTTONS & LINKS */
 
 .btn,
@@ -213,12 +209,13 @@ header {
     background: var(--english-violet);
     border-radius: 0 8px;
     box-shadow: var(--box-shadow);
-    transition: all .8s ease;
+    transition: all .5s ease;
 }
 
 .link {
     color: var(--dark-charcoal);
     align-self: flex-end;
+    transition: all .5s ease;
 }
 
 .blog .link,
@@ -233,10 +230,13 @@ header {
     padding-top: 8px;
 }
 
+.btn:hover,
+.link:hover {transform: scale(1.04);}
 
 
 /* CARDS */
 
+.featured,
 .card-wrapper,
 .card-btn-wrapper,
 .card,
@@ -248,27 +248,25 @@ hgroup,
     flex-direction: column;
 }
 
-.card-wrapper {
-    gap: 32px;
-    align-items: center;
-    margin-bottom: 56px;
-}
+.featured,
+.card-wrapper,
+.card-content {gap: 32px}
 
 .card-btn-wrapper,
-.card-content,
 .text-field {gap: 16px;}
 
+hgroup,
+.paragraph {gap: 8px;}
+
+.featured {margin-bottom: 56px;}
+
 .card,
-.paragraph {
-    background: var(--alabaster);
-    transition: all 0.5s ease;
-}
+.paragraph {background: var(--alabaster);}
 
 .card-content,
 .paragraph {padding: 16px;}
 
-hgroup,
-.paragraph {gap: 8px;}
+.card {transition: all 0.5 ease;}
 
 .card:hover {transform: scale(1.02);}
 
@@ -280,9 +278,6 @@ img[src="images/blogpost_1.jpg"] {
 }
 
 .ex-mar {margin-bottom: 8px;}
-
-.card.one br {display: none;}
-
 
 
 /* FORMS */
@@ -387,21 +382,22 @@ textarea,
 .after:hover {cursor: pointer;}
 
 
-
 /* FOOTER */
 
-footer,
+footer {
+    background: var(--dark-charcoal);
+    margin-top: 56px;
+}
+
+.footer-wrapper,
 .footer-section {
     display: flex;
     flex-direction: column;
 }
 
-
-footer {
-    background: var(--dark-charcoal);
+.footer-wrapper {
     gap: 40px;
     padding: 48px;
-    margin-top: 56px;
 }
 
 .footer-section {gap: 6px;}
@@ -414,11 +410,11 @@ footer {
     line-height: 2;
 }
 
-footer p,
-footer a {
+.footer-wrapper p,
+.footer-wrapper a {
     color: var(--alabaster);
     letter-spacing: 0.5px;
     font-style: normal;
 }
 
-footer a:hover {text-decoration: underline 1.5px var(--alabaster);}
+.footer-wrapper a:hover {text-decoration: underline 1.5px var(--alabaster);}
