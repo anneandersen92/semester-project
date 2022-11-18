@@ -54,7 +54,9 @@
 
     @media only screen and (min-width: 950px) {
 
-    main {
+    .header-wrapper,
+    main,
+    .footer-wrapper {
         max-width: 1300px;
         margin: 0 auto;
     }
@@ -84,7 +86,7 @@
 
     .logo {width: 100%;}
 
-    header {
+    .header-wrapper {
         gap: 4px;
         padding: 8px 40px;
     }
@@ -94,10 +96,11 @@
 
     .menu-icon {display: none;}
 
+    .menu {background: var(--dark-charcoal);}
+
     .hamnav {
         display: flex;
         align-self: flex-end;
-        background: var(--dark-charcoal);
         padding: 10px 0;
         gap: 24px;
     }
@@ -118,6 +121,7 @@
         color: var(--alabaster);
         font-size: 13pt;
         letter-spacing: 1.5pt;
+        line-height: normal;
     }
 
     .hamitems.large #active,
@@ -132,8 +136,6 @@
     /* FOOTER */
 
     .footer-wrapper {
-        max-width: 1300px;
-        margin: 0 auto;
         padding: 80px;
         padding-bottom: 120px;
     }
@@ -163,4 +165,27 @@
     /* FORMS */
 
     textarea {max-height: 40px;}
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .hamnav {
+        gap: 24px;
+    }
+
+    .hamitems.large,
+    .hamitems.small {
+        gap: 24px;
+    }
+
+    .hamitems.large a,
+    .hamitems.small a {
+        font-size: 16pt;
+    }
+
+    .hamitems.large #active,
+    .hamitems.small #active,
+    .hamitems a:hover {
+        font-size: 24pt;
+    }
 }

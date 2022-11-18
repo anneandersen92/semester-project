@@ -37,12 +37,13 @@
         margin: 0;
     }
 
-    .logo-wrapper img {height: 300px;}
+    .logo-wrapper img {height: 500px;}
     
     .logo-wrapper {grid-area: logo;}
     .menu {grid-area: nav;}
 
-    header {
+    .header-wrapper {
+        max-width: 100%;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;

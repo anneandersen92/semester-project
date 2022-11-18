@@ -101,8 +101,9 @@ a {text-decoration: none;}
 
 /* HEADER */
 
-header {
-    background: var(--dark-charcoal);
+header {background: var(--dark-charcoal);}
+
+.header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
