@@ -1,6 +1,8 @@
 
 /* HEADER */
 
+header {background: none;}
+
 .header-wrapper {
     margin: 0;
     display: inline;
@@ -11,11 +13,10 @@
 .logo-wrapper {position: relative;}
 
 .logo-wrapper img {
-    width: 100%;
-    height: 280px;
     object-fit: cover;
-    filter: brightness(80%);
     overflow: hidden;
+    min-height: 280px;
+    filter: brightness(80%);
 }
 
 .logo {

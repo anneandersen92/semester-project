@@ -4,7 +4,7 @@
     main {padding: 0 40px;}
 
 
-    /* FORMS */
+    /* BOOKING FORM */
 
     form {gap: 16px;}
 
@@ -32,24 +32,12 @@
     ::placeholder {text-align: left;}
 
 
-    /* POINT FORM */
-
-    .point-form {
-        gap: 8px;
-        background: none;
-        border: none;
-        padding: 0;
-        margin-bottom: 0;
-    }
+    /* EXPLORE - GET POINTS */
 
     .point-form input {width: 100%;}
 
-    .point-form ::placeholder {text-align: left;}
-
-    .point-form .check-icon {
-        font-size: 18pt;
-        color: var(--alabaster);
-    }
+    .point-wrapper p,
+    .point-form {width: 65%;}
 
 
     /* FOOTER */
@@ -91,7 +79,7 @@
     .hamnav {
         display: flex;
         align-self: flex-end;
-        padding: 10px 0;
+        padding: 18px 0;
         gap: 24px;
     }
 
@@ -123,7 +111,7 @@
     }
 
 
-    /* CARDS */
+    /* CARDS & POSTS */
 
     .card-wrapper {
         display: grid;
@@ -137,6 +125,55 @@
         justify-content: space-between;
         min-height: 220px;
     }
+
+    .explore-main .post-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'k t r'
+        'k p p';
+    }
+
+    .kids {grid-area: k;}
+    .teachers {grid-area: t;}
+    .researchers {grid-area: r;}
+    .point-wrapper {grid-area: p;}
+
+    .explore-main .content-wrapper {height: 100%;}
+
+
+    /* EXPLORE - GET POINTS */
+
+    .explore-main img {
+        object-fit: inherit;
+        overflow: inherit;
+    }
+
+    .point-wrapper,
+    .point-wrapper p,
+    .point-form {width: 100%;}
+
+    .point-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'e h'
+        'p f';
+    }
+
+    .einstein {grid-area: e;}
+    .point-wrapper h3 {grid-area: h;}
+    .point-wrapper p {grid-area: p;}
+    .point-form {grid-area: f;}
+
+    .einstein {
+        width: 40px;
+        justify-self: center;
+    }
+
+    .point-wrapper h3 {justify-self: start;}
 
 
     /* FOOTER */
@@ -180,9 +217,4 @@
     /* FONTS */
 
     html {font-size: 112.5%;}
-
-
-    /* FOOTER */
-
-    footer {margin-top: 120px;}
 }

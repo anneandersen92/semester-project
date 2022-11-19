@@ -20,8 +20,6 @@
         line-height: 44pt;
         margin: 0;
     }
-
-    .logo-wrapper img {height: 500px;}
     
     .logo-wrapper {grid-area: logo;}
     .menu {grid-area: nav;}
@@ -43,7 +41,7 @@
 
     .hamnav {
         justify-content: flex-end;
-        height: 117px;
+        height: 102px;
         padding: 0 40px;
         max-width: 1300px;
         margin: 0 auto;
@@ -71,7 +69,7 @@
         position: absolute;
         left: 0;
         width: 100%;
-        margin-top: -4px;
+        margin-top: -5px;
         flex-direction: row;
         background: var(--metallic-seaweed);
         justify-content: center;
@@ -105,6 +103,4 @@
 }
 
 @media only screen and (min-width: 1300px) {
-
-    .logo-wrapper img {height: 600px;}
 }
