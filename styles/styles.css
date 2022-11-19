@@ -112,7 +112,7 @@ header {background: var(--dark-charcoal);}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 32px;
+    padding: 16px 24px;
 }
 
 .logo a {
@@ -136,16 +136,27 @@ header {background: var(--dark-charcoal);}
 
 /* NAV */
 
-.menu-icon {
-    font-size: 32px;
+.hamnav,
+#hamburger,
+#open {display: none;}
+
+.closed {
+    font-size: 24pt;
     color: var(--alabaster);
 }
 
-.menu-icon:hover {cursor: pointer;}
+.open {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-size: 24pt;
+    color: var(--dark-charcoal);
+    z-index: 1000;
+}
 
-.hamnav {display: none;}
+#hamburger:checked ~ #closed {display: none;}
 
-#hamburger {display: none;}
+#hamburger:checked ~ #open {display: inline;}
 
 #hamburger:checked ~ .hamnav,
 .hamitems {
@@ -155,14 +166,14 @@ header {background: var(--dark-charcoal);}
 
 #hamburger:checked ~ .hamnav {
     position: absolute;
-    top: 96px;
-    left: 0%;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background: var(--alabaster);
-    padding: 8% 20%;
+    padding: 20%;
     gap: 80px;
-    z-index: 1000;
+    z-index: 900;
 }
 
 .hamitems.large,
@@ -176,6 +187,9 @@ header {background: var(--dark-charcoal);}
 .hamitems.large #active {font-size: 30pt;}
 
 .hamitems.small #active {font-size: 22pt;}
+
+#closed:hover,
+#open:hover {cursor: pointer;}
 
 
 /* BREADCRUMB NAV */
