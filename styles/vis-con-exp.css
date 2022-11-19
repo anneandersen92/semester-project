@@ -8,6 +8,13 @@
     margin-bottom: 40px;
 }
 
+.visit-info img {
+    object-position: 0 85%;
+    max-height: 300px;
+}
+
+.visit-info p {max-width: 400px;}
+
 .about-wrapper {
     width: 100%;
     gap: 24px;
@@ -18,6 +25,10 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.iframe {
+    width: 100%;
 }
 
 iframe {
@@ -39,6 +50,8 @@ iframe {
 .info-section-h {gap: 8px;}
 
 .info-section-h {flex-direction: row;}
+
+.hidden {display: none;}
 
 
 /* CONFIRMATION */

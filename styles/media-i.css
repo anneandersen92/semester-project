@@ -1,5 +1,10 @@
 @media only screen and (min-width: 600px) {
 
+    /* CARDS */
+
+    .card-content {min-height: 240px;}
+
+
     /* EXPLORE */
 
     .explore-wrapper h2,
@@ -43,12 +48,19 @@
         justify-content: flex-end;
         height: 102px;
         padding: 0 40px;
-        max-width: 1300px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
     .hamitems.large a,
     .hamitems.small a {width: auto;}
+
+
+    /* CARDS */
+
+    .card.hide {display: flex;}
+
+    .exhibitions .card-wrapper {grid-template-columns: 1fr 1fr 1fr;}
 
 
     /* OPENING HOURS & VISIT */
@@ -89,17 +101,6 @@
 
     .visit-wrapper h2,
     .visit-wrapper p {font-weight: 600;}
-
-
-    /* CARDS */
-
-    .card.hide {display: flex;}
-
-    .exhibitions .card-wrapper {grid-template-columns: 1fr 1fr 1fr;}
-
-    .card-content {min-height: 250px;}
-
-    .blogposts .card-content {min-height: 200px;}
 }
 
 @media only screen and (min-width: 1300px) {
