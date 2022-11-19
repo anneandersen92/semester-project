@@ -1,21 +1,5 @@
 @media only screen and (min-width: 600px) {
 
-    /* CARDS */
-
-    .card-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .card {height: 100%;}
-
-    .card-content {
-        gap: 0;
-        justify-content: space-between;
-        min-height: 220px;
-    }
-
-
     /* EXPLORE */
 
     .explore-wrapper h2,
@@ -59,8 +43,10 @@
 
     .hamnav {
         justify-content: flex-end;
-        height: 80px;
+        height: 117px;
         padding: 0 40px;
+        max-width: 1300px;
+        margin: 0 auto;
     }
 
     .hamitems.large a,
@@ -116,4 +102,9 @@
     .card-content {min-height: 250px;}
 
     .blogposts .card-content {min-height: 200px;}
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .logo-wrapper img {height: 600px;}
 }

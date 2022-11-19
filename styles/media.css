@@ -50,6 +50,11 @@
         font-size: 18pt;
         color: var(--alabaster);
     }
+
+
+    /* FOOTER */
+
+    footer {margin-top: 80px;}
     }
 
     @media only screen and (min-width: 950px) {
@@ -64,22 +69,7 @@
 
     /* FONTS */
 
-    h1 {
-        font-size: 30pt;
-        margin-bottom: 32px;
-    }
-
-    h2 {font-size: 24pt;}
-
-    h3 {font-size: 20pt;}
-
-    p,
-    a {font-size: 14pt;}
-
-    .bold {
-        font-size: 14pt;
-        letter-spacing: 1pt;
-    }
+    html {font-size: 110% !important;}
 
 
     /* HEADER */
@@ -88,7 +78,7 @@
 
     .header-wrapper {
         gap: 4px;
-        padding: 8px 40px;
+        padding: 16px 40px;
     }
 
     
@@ -119,7 +109,7 @@
     .hamitems.large a,
     .hamitems.small a {
         color: var(--alabaster);
-        font-size: 13pt;
+        font-size: 14pt;
         letter-spacing: 1.5pt;
         line-height: normal;
     }
@@ -133,7 +123,25 @@
     }
 
 
+    /* CARDS */
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {height: 100%;}
+
+    .card-content {
+        gap: 0;
+        justify-content: space-between;
+        min-height: 220px;
+    }
+
+
     /* FOOTER */
+
+    footer {margin-top: 100px;}
 
     .footer-wrapper {
         padding: 80px;
@@ -160,32 +168,21 @@
 }
 
 
-@media only screen and (min-width: 973px) {
+@media only screen and (min-width: 1137px) {
 
     /* FORMS */
 
     textarea {max-height: 40px;}
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1300px) {
 
-    .hamnav {
-        gap: 24px;
-    }
+    /* FONTS */
 
-    .hamitems.large,
-    .hamitems.small {
-        gap: 24px;
-    }
+    html {font-size: 112.5%;}
 
-    .hamitems.large a,
-    .hamitems.small a {
-        font-size: 16pt;
-    }
 
-    .hamitems.large #active,
-    .hamitems.small #active,
-    .hamitems a:hover {
-        font-size: 24pt;
-    }
+    /* FOOTER */
+
+    footer {margin-top: 120px;}
 }
