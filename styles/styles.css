@@ -138,23 +138,21 @@ header {background: var(--dark-charcoal);}
 
 .hamnav,
 #hamburger,
-#open {display: none;}
+#open,
+#hamburger:checked ~ #closed {display: none;}
 
-.closed {
-    font-size: 24pt;
-    color: var(--alabaster);
-}
-
+.closed,
 .open {
     position: absolute;
     top: 24px;
     right: 24px;
     font-size: 24pt;
-    color: var(--dark-charcoal);
     z-index: 1000;
 }
 
-#hamburger:checked ~ #closed {display: none;}
+.closed {color: var(--alabaster);}
+
+.open {color: var(--dark-charcoal);}
 
 #hamburger:checked ~ #open {display: inline;}
 
@@ -170,7 +168,8 @@ header {background: var(--dark-charcoal);}
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--alabaster);
+    background: #f2f2e999;
+    backdrop-filter: blur(12px);
     padding: 20%;
     gap: 80px;
     z-index: 900;

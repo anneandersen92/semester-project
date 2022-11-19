@@ -45,7 +45,8 @@
     footer {margin-top: 80px;}
     }
 
-    @media only screen and (min-width: 950px) {
+
+@media only screen and (min-width: 950px) {
 
     .header-wrapper,
     main,
@@ -57,7 +58,7 @@
 
     /* FONTS */
 
-    html {font-size: 110% !important;}
+    html {font-size: 110%;}
 
 
     /* HEADER */
@@ -72,7 +73,7 @@
     
     /* NAV */
 
-    .menu-icon {display: none;}
+    #closed {display: none;}
 
     .menu {background: var(--dark-charcoal);}
 
@@ -111,7 +112,7 @@
     }
 
 
-    /* CARDS & POSTS */
+    /* CARDS */
 
     .card-wrapper {
         display: grid;
@@ -125,6 +126,11 @@
         justify-content: space-between;
         min-height: 220px;
     }
+
+
+    /* POSTS */
+
+    /* EXPLORE */
 
     .explore-main .post-wrapper {
         display: grid;
@@ -141,6 +147,22 @@
     .point-wrapper {grid-area: p;}
 
     .explore-main .content-wrapper {height: 100%;}
+
+    /* GET INVOLVED */
+
+    .getinvolved-main .post-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'd v i';
+    }
+
+    .donate {grid-area: d;}
+    .volunteer {grid-area: v;}
+    .internship {grid-area: i;}
+
+    .getinvolved-main .content-wrapper {height: 100%;}
 
 
     /* EXPLORE - GET POINTS */
