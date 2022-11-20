@@ -362,10 +362,9 @@ textarea {
 select {background: #ffffff;}
 
 select,
-.date {
-    padding: 8px 13px;
-    -webkit-appearance: none;
-}
+.date {padding: 8px 13px;}
+
+
 
 label {
     width: 90%;
