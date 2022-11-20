@@ -23,9 +23,7 @@
     overflow: hidden;
 }
 
-body {
-    margin: 0;
-}
+body {margin: 0;}
 
 main {padding: 0 24px;}
 
@@ -310,7 +308,7 @@ hgroup,
 .card-content,
 .content-wrapper {padding: 16px;}
 
-.card {transition: all 0.5 ease;}
+.card {transition: all .5s ease;}
 
 .card:hover {transform: scale(1.02);}
 
