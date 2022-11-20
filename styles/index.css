@@ -97,6 +97,8 @@ h1 {
 
 .btn {background: var(--metallic-seaweed);}
 
+.btn:hover {background: var(--metallic-seaweed-hover);}
+
 .btn-exp {
     background: var(--alabaster);
     color: var(--dark-charcoal);
@@ -104,3 +106,5 @@ h1 {
     text-align: center;
     margin-top: 8px;
 }
+
+.btn-exp:hover {background: var(--alabaster-hover);}

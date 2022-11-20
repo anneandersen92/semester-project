@@ -5,9 +5,12 @@
     --dark-charcoal: #333333;
     --charcoal: #666666;
     --english-violet: #333366;
+    --english-violet-hover: #33336699;
     --glossy-grape: #a493bd;
     --alabaster: #f2f2e9;
+    --alabaster-hover: #f2f2e999;
     --metallic-seaweed: #207c95;
+    --metallic-seaweed-hover: #207c9599;
     --black: #000000;
     --box-shadow: 1px 1px 6px #33333380;
     --header-font: "Monomaniac One", 'Bahnschrift Condensed', 'Franklin Gothic Demi Cond', 'Arial Narrow';
@@ -253,15 +256,10 @@ header {background: var(--dark-charcoal);}
     transition: all .5s ease;
 }
 
-.link {
-    align-self: flex-end;
-    transition: all .5s ease;
-}
+.btn:hover {background: var(--english-violet-hover);}
 
 .blog .link,
 .arrow-icon {color: var(--english-violet);}
-
-.arrow-icon {font-size: 16pt;}
 
 .blog .link-area {
     display: flex;
@@ -270,8 +268,18 @@ header {background: var(--dark-charcoal);}
     padding-top: 8px;
 }
 
-.btn:hover,
-.link:hover {transform: scale(1.04);}
+.arrow-icon {font-size: 16pt;}
+
+.link,
+.link-area {
+    align-self: flex-end;
+    transition: all .5s ease;
+}
+
+.link:hover,
+.link-area:hover {transform: scale(1.08);}
+
+.card .link:hover {transform: none;}
 
 
 /* CARDS & POSTS */
