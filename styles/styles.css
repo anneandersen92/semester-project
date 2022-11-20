@@ -137,7 +137,6 @@ li {
 
 *:focus {outline: solid 3px var(--dark-charcoal);}
 
-header a:focus,
 footer a:focus {outline: solid 3px var(--alabaster);}
 
 

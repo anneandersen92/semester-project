@@ -96,6 +96,8 @@
         margin: 0 auto;
     }
 
+    header a:focus {outline: solid 3px var(--alabaster);}
+
 
     /* FONTS */
 
