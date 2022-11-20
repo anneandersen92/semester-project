@@ -379,6 +379,7 @@ textarea,
     color: var(--dark-charcoal);
     opacity: 100%;
     text-align: center;
+    align-self: center;
 }
 
 
