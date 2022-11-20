@@ -347,6 +347,7 @@ form {
     padding: 24px;
     margin-bottom: 8px;
     gap: 24px;
+    -webkit-appearance: none;
 }
 
 select,
