@@ -364,7 +364,10 @@ select {background: #ffffff;}
 select,
 .date {padding: 8px 13px;}
 
-
+.date {
+    height: 37px;
+    width: 100%;
+}
 
 label {
     width: 90%;
