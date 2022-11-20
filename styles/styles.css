@@ -334,6 +334,11 @@ form,
     flex-direction: column;
 }
 
+.input-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
 .form-wrapper {
     gap: 16px;
     width: 100%;
@@ -363,11 +368,6 @@ select {background: #ffffff;}
 
 select,
 .date {padding: 8px 13px;}
-
-.date {
-    height: 37px;
-    width: 100%;
-}
 
 label {
     width: 90%;
