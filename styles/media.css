@@ -1,7 +1,28 @@
 
+@media only screen and (min-width: 450px) {
+
+    /* VISIT */
+
+    .opening-hours,
+    .location {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+
+    .about-info h2 {align-self: center;}
+}
+
 @media only screen and (min-width: 600px) {
 
     main {padding: 0 40px;}
+
+
+    /* HEADER */
+
+    .header-wrapper {padding: 16px 40px;}
+
+    .closed,
+    .open {right: 40px;}
 
 
     /* CARDS */
@@ -215,33 +236,22 @@
 
     /* VISIT */
 
-    .visit-info {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .about-wrapper,
+    .form-wrapper {margin-bottom: 64px;}
+
+    .about-info h2 {align-self: flex-start;}
+
+    .opening-hours,
+    .location {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
     }
 
-    .visit-info img {
-        object-position: 0 100%;
-        max-height: 224px;
-        grid-column-start: 2;
-        grid-row-start: 1;
-        grid-row-end: span 3;
-    }
-
-    .visit-info,
-    .form-wrapper,
-    .about-wrapper {margin-bottom: 56px;}
-
-    .about-wrapper {
-        display: grid;
-        grid-template-columns: 2.5fr 1fr;
-        column-gap: 48px;
-    }
-
-    .iframe {
-        grid-column-start: 1;
-        grid-row-start: 1;
-        grid-row-end: span 2;
+    .about-info {
+        flex-direction: row;
+        gap: 96px;
+        margin: 0 auto;
     }
 
     .hidden {display: inline;}
@@ -249,7 +259,8 @@
     .information-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 40px;
+        column-gap: 64px;
+        row-gap: 40px;
     }
     
     .hide {display: none;}
@@ -260,7 +271,10 @@
         text-align: center;
     }
 
-    .info-section-h {flex-direction: column;}
+    .info-section-h {
+        flex-direction: column;
+        gap: 16px;
+    }
     
     .info-section .material-icons-outlined {
         font-size: 48pt;
@@ -271,6 +285,11 @@
         align-items: center;
         text-align: center;
     }
+
+
+    /* CONFIRMATION */
+
+    .confirmation-wrapper {margin-bottom: 96px;}
 
 
     /* FOOTER */

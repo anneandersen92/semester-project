@@ -1,35 +1,33 @@
+
 /* VISIT */
 
 .visit-info,
-.about-wrapper {
+.about-wrapper,
+.about-info,
+.opening-hours,
+.location,
+.info-section,
+.information-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    margin-bottom: 40px;
 }
 
-.visit-info img {
-    object-position: 0 85%;
-    max-height: 300px;
-}
+.visit-info,
+.about-info {gap: 16px;}
 
-.visit-info p {max-width: 400px;}
+.about-wrapper {gap: 24px;}
 
-.about-wrapper {
-    width: 100%;
-    gap: 24px;
-}
+.visit-info,
+.about-wrapper {margin-bottom: 40px;}
 
 .opening-hours,
-.location {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+.location,
+.info-section,
+.info-section-h {gap: 8px;}
 
-.iframe {
-    width: 100%;
-}
+.location p {font-size: 10pt;}
+
+.iframe {width: 100%;}
 
 iframe {
     width: 100%;
@@ -39,17 +37,7 @@ iframe {
 
 .information-wrapper {gap: 24px;}
 
-.info-section,
-.info-section-h,
-.information-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.info-section,
-.info-section-h {gap: 8px;}
-
-.info-section-h {flex-direction: row;}
+.info-section-h {display: flex;}
 
 .hidden {display: none;}
 
