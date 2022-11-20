@@ -25,6 +25,8 @@
 .info-section,
 .info-section-h {gap: 8px;}
 
+.visit-info p {max-width: 600px;}
+
 .iframe {width: 100%;}
 
 iframe {
