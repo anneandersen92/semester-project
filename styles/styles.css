@@ -362,7 +362,10 @@ textarea {
 select {background: #ffffff;}
 
 select,
-.date {padding: 8px 13px;}
+.date {
+    padding: 8px 13px;
+    -webkit-appearance: none;
+}
 
 label {
     width: 90%;
@@ -373,7 +376,6 @@ label {
 }
 
 select,
-option,
 input,
 textarea,
 ::placeholder {
