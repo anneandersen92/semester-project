@@ -373,13 +373,13 @@ label {
 }
 
 select,
+option,
 input,
 textarea,
 ::placeholder {
     color: var(--dark-charcoal);
     opacity: 100%;
     text-align: center;
-    align-self: center;
 }
 
 
