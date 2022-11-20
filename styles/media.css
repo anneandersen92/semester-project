@@ -14,6 +14,8 @@
 
 @media only screen and (min-width: 600px) {
 
+    /* GLOBAL STYLES */
+
     main {padding: 0 40px;}
 
 
@@ -85,6 +87,8 @@
 
 @media only screen and (min-width: 950px) {
 
+    /* GLOBAL STYLES */
+
     .header-wrapper,
     main,
     .footer-wrapper {
@@ -95,17 +99,46 @@
 
     /* FONTS */
 
-    html {font-size: 110%;}
+    h1 {font-size: 32pt;}
+
+    h2 {font-size: 24pt;}
+
+    h3 {font-size: 18pt;}
+
+    .logo-name {font-size: 20pt;}
+
+    .bold,
+    p,
+    a,
+    select,
+    input,
+    textarea,
+    label {font-size: 13pt;}
+
+    .location p {font-size: 11pt;}
+
+    .hamitems.large a,
+    .hamitems.small a {
+        color: var(--alabaster);
+        font-size: 13pt;
+        letter-spacing: 1.5pt;
+        line-height: normal;
+    }
+
+    .hamitems.large #active,
+    .hamitems.small #active,
+    .hamitems a:hover {
+        color: var(--alabaster);
+        font-size: 20pt;
+        text-decoration: none;
+    }
+
+    .footer-head {font-size: 18pt;}
 
 
     /* HEADER */
 
-    .logo {width: 100%;}
-
-    .header-wrapper {
-        gap: 4px;
-        padding: 16px 40px;
-    }
+    .science-icon {font-size: 55pt;}
 
     
     /* NAV */
@@ -132,72 +165,47 @@
     .hamitems.large,
     .hamitems.small {text-align: center;}
 
-    .hamitems.large a,
-    .hamitems.small a {
-        color: var(--alabaster);
-        font-size: 14pt;
-        letter-spacing: 1.5pt;
-        line-height: normal;
-    }
-
-    .hamitems.large #active,
-    .hamitems.small #active,
-    .hamitems a:hover {
-        color: var(--alabaster);
-        font-size: 22pt;
-        text-decoration: none;
-    }
-
-
+    
     /* POSTS */
 
-    /* EXPLORE */
-
-    .explore-main .post-wrapper {
+    .explore-main .post-wrapper,
+    .getinvolved-main .post-wrapper,
+    .exhibition-main .post-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
+    }
+
+    .explore-main .post-wrapper {
         grid-template-areas: 
         'k t r'
         'k p p';
     }
-
     .kids {grid-area: k;}
     .teachers {grid-area: t;}
     .researchers {grid-area: r;}
     .point-wrapper {grid-area: p;}
 
-    .explore-main .content-wrapper {height: 100%;}
-
-    /* GET INVOLVED */
-
+    
     .getinvolved-main .post-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
         grid-template-areas: 
         'd v i';
     }
-
     .donate {grid-area: d;}
     .volunteer {grid-area: v;}
     .internship {grid-area: i;}
 
-    .getinvolved-main .content-wrapper {height: 100%;}
-
-    /* EXHIBITION */
-
+    
     .exhibition-main .post-wrapper {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
         grid-template-areas: 
         'e-1 e-2';
     }
-
     .exhibit-1 {grid-area: e-1;}
     .exhibit-2 {grid-area: e-2;}
 
+    .explore-main .content-wrapper,
+    .getinvolved-main .content-wrapper,
     .exhibition-main .content-wrapper {height: 100%;}
 
 
@@ -216,11 +224,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        row-gap: 32px;
         grid-template-areas: 
         'e h'
         'p f';
     }
-
     .einstein {grid-area: e;}
     .point-wrapper h3 {grid-area: h;}
     .point-wrapper p {grid-area: p;}
@@ -231,7 +239,11 @@
         justify-self: center;
     }
 
-    .point-wrapper h3 {justify-self: start;}
+    .einstein,
+    .point-wrapper h3 {align-self: flex-end;}
+
+    .point-wrapper p,
+    .point-form {align-self: flex-start;}
 
 
     /* VISIT */
@@ -301,7 +313,7 @@
         padding-bottom: 120px;
     }
 
-    .footer-head {font-size: 18pt;}
+
 
     .footer-section.one {grid-area: f-one;}
     .footer-section.two {grid-area: f-two; align-self: end;}
@@ -332,5 +344,4 @@
 
     /* FONTS */
 
-    html {font-size: 112.5%;}
 }

@@ -39,7 +39,7 @@ h1 {
     font-size: 32pt;
     line-height: 36pt;
     color: var(--alabaster);
-    letter-spacing: 2pt;
+    margin: 0;
 }
 
 

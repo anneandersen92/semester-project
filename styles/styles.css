@@ -31,14 +31,6 @@ body {
 main {padding: 0 24px;}
 
 
-/* ACCESSIBILITY */
-
-*:focus {outline: solid 3px var(--dark-charcoal);}
-
-header a:focus,
-footer a:focus {outline: solid 3px var(--alabaster);}
-
-
 /* FONTS */
 
 @font-face {
@@ -50,23 +42,26 @@ footer a:focus {outline: solid 3px var(--alabaster);}
 h1,
 h2,
 h3,
-.hamitems.small a,
 .hamitems.large a,
-p,
+.hamitems.small a,
+.logo-name,
+.footer-head,
 .bold,
+p,
 a {margin: 0;}
 
 h1,
 h2,
 h3,
-.bold,
 .hamitems.large a,
 .hamitems.small a,
 .logo-name,
-.footer-head {
+.footer-head,
+.bold {
     font-family: var(--header-font);
     color: var(--dark-charcoal);
     font-weight: normal;
+    line-height: normal
 }
 
 h1 {
@@ -77,34 +72,77 @@ h1 {
 
 h2,
 .hamitems.large a {
-    line-height: normal;
     font-size: 20pt;
-    letter-spacing: 1pt;
+    letter-spacing: 1.5pt;
 }
 
 h3,
-.hamitems.small a {
+.hamitems.small a,
+.logo-name {
     font-size: 16pt;
-    letter-spacing: 0.5pt; 
+    letter-spacing: 1pt; 
 }
 
-p,
-a {
-    font-family: var(--body-font);
-    font-size: 12pt;
-    line-height: 2;
-}
+.logo-name {color: var(--alabaster);}
 
-p {color: var(--black);}
+.hamitems.large #active {font-size: 30pt;}
 
-a {color: var(--dark-charcoal);}
+.hamitems.small #active {font-size: 22pt;}
 
 .bold {
-    font-size: 12pt;
+    font-size: 11pt;
     letter-spacing: 0.5pt;
 }
 
-a {text-decoration: none;}
+p,
+a,
+li,
+select,
+input,
+textarea,
+label {
+    font-family: var(--body-font);
+    font-size: 11pt;
+}
+
+p,
+a,
+li {line-height: 2;}
+
+
+p {color: var(--black);}
+
+a,
+li {
+    color: var(--dark-charcoal);
+    text-decoration: none;
+}
+
+.location p {font-size: 10pt;}
+
+.footer-head {
+    font-size: 14pt;
+    letter-spacing: 2px;
+    color: var(--alabaster);
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.footer-wrapper p,
+.footer-wrapper a {
+    color: var(--alabaster);
+    letter-spacing: 0.5px;
+    font-style: normal;
+}
+
+
+/* FOCUS */
+
+*:focus {outline: solid 3px var(--dark-charcoal);}
+
+header a:focus,
+footer a:focus {outline: solid 3px var(--alabaster);}
+
 
 
 /* HEADER */
@@ -120,19 +158,11 @@ header {background: var(--dark-charcoal);}
 
 .logo a {
     display: flex;
-    gap: 8px;
     align-items: center;
 }
 
 .science-icon {
-    font-size: 40pt;
-    color: var(--alabaster);
-}
-
-.logo-name {
-    font-size: 16pt;
-    line-height: normal;
-    letter-spacing: 1px;
+    font-size: 44pt;
     color: var(--alabaster);
 }
 
@@ -187,10 +217,6 @@ header {background: var(--dark-charcoal);}
     text-decoration: underline 3px var(--metallic-seaweed);
 }
 
-.hamitems.large #active {font-size: 30pt;}
-
-.hamitems.small #active {font-size: 22pt;}
-
 #closed:hover,
 #open:hover {cursor: pointer;}
 
@@ -204,11 +230,6 @@ header {background: var(--dark-charcoal);}
     align-items: center;
     gap: 4px;
     padding: 0;
-}
-
-.breaditems li {
-    font-family: var(--body-font);
-    font-size: 12pt;
 }
 
 .index {text-transform: uppercase;}
@@ -237,7 +258,6 @@ header {background: var(--dark-charcoal);}
 }
 
 .link {
-    color: var(--dark-charcoal);
     align-self: flex-end;
     transition: all .5s ease;
 }
@@ -331,14 +351,6 @@ form {
 
 select,
 input,
-textarea,
-label {
-    font-family: var(--body-font);
-    font-size: 12pt;
-}
-
-select,
-input,
 textarea {
     width: 100%;
     letter-spacing: 0.5pt;
@@ -388,21 +400,6 @@ footer {
     padding: 48px;
 }
 
-.footer-section {gap: 6px;}
-
-.footer-head {
-    font-size: 14pt;
-    letter-spacing: 2px;
-    color: var(--alabaster);
-    text-transform: uppercase;
-    line-height: 2;
-}
-
-.footer-wrapper p,
-.footer-wrapper a {
-    color: var(--alabaster);
-    letter-spacing: 0.5px;
-    font-style: normal;
-}
-
 .footer-wrapper a:hover {text-decoration: underline 1.5px var(--alabaster);}
+
+.footer-section {gap: 6px;}

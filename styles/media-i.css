@@ -31,7 +31,6 @@
     h1 {
         font-size: 40pt;
         line-height: 44pt;
-        margin: 0;
     }
     
     .logo-wrapper {grid-area: logo;}
