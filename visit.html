@@ -65,43 +65,45 @@
             </section>
             <section class="form-wrapper">
                 <h2>Booking</h2>
-                <form>
-                    <div class="input-wrapper">
-                        <label for="booking">What do you want to do at the museum?</label>
-                        <select class="booking" name="booking">
-                            <option value="0">select your activity here...</option>
-                            <option value="1">Admission ticket</option>
-                            <option value="2">Event</option>
-                            <option value="3">Exhibition</option>
-                            <option value="4">Einstein / Holiday Club</option>
-                        </select>
+                <form action="" method="POST">
+                    <div class="booking-form">
+                        <div class="input-wrapper">
+                            <label for="booking">What do you want to do at the museum?</label>
+                            <select class="booking" name="booking">
+                                <option value="0">select your activity here...</option>
+                                <option value="1">Admission ticket</option>
+                                <option value="2">Event</option>
+                                <option value="3">Exhibition</option>
+                                <option value="4">Einstein / Holiday Club</option>
+                            </select>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="name">Who is booking the visit?</label>
+                            <input type="text" class="name" name="name" placeholder="write the name here..." required aria-label="name">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="email">What email do you want your booking sent to?</label>
+                            <input type="email" class="email" name="email" placeholder="write the email here..." required aria-label="email">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="date">When are you visiting the museum?</label>
+                            <input type="date" class="date" name="date" placeholder="choose date..." required aria-label="date">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="adults">How many adults are coming?</label>
+                            <input type="number" class="adults" name="adults" placeholder="choose number of adults..." min="0" max="100" aria-label="adults">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="children">How many children are coming?</label>
+                            <input type="number" class="children" name="children" placeholder="choose number of children..." min="0" max="100" aria-label="children">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="message">Is there anything you would like us to know before your visit?</label>
+                            <textarea class="message" name="message" rows="2" placeholder="type your message here..."  aria-label="message area"></textarea>
+                        </div>
                     </div>
-                    <div class="input-wrapper">
-                        <label for="name">Who is booking the visit?</label>
-                        <input type="text" class="name" name="name" placeholder="write the name here..." required aria-label="name">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="email">What email do you want your booking sent to?</label>
-                        <input type="email" class="email" name="email" placeholder="write the email here..." required aria-label="email">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="date">When are you visiting the museum?</label>
-                        <input type="date" class="date" name="date" placeholder="choose date..." required aria-label="date">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="adults">How many adults are coming?</label>
-                        <input type="number" class="adults" name="adults" placeholder="choose number of adults..." min="0" max="100" aria-label="adults">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="children">How many children are coming?</label>
-                        <input type="number" class="children" name="children" placeholder="choose number of children..." min="0" max="100" aria-label="children">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="message">Is there anything you would like us to know before your visit?</label>
-                        <textarea class="message" name="message" rows="2" placeholder="type your message here..."  aria-label="message area"></textarea>
-                    </div>
+                    <a href="confirmation.html" class="btn">Book now</a>
                 </form>
-                <a href="confirmation.html" class="btn">Book now</a>
             </section>
             <section class="about-wrapper">
                 <div class="about-info">

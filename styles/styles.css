@@ -332,7 +332,7 @@ img[src="images/blogpost_0.jpg"] {margin: 16px 0;}
 /* FORMS */
 
 .form-wrapper,
-form,
+.booking-form,
 .input-wrapper {
     display: flex;
     flex-direction: column;
@@ -344,12 +344,12 @@ form,
     margin-bottom: 48px;
 }
 
-form {
+.booking-form {
     background: var(--alabaster);
     border: solid 1px var(--dark-charcoal);
     border-radius: 8px;
     padding: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
     gap: 24px;
 }
 
