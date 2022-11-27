@@ -115,14 +115,14 @@
     select,
     input,
     textarea,
-    label {font-size: 14pt;}
+    label {font-size: 13pt;}
 
-    .location p {font-size: 12pt;}
+    .location p {font-size: 11pt;}
 
     .hamitems.large a,
     .hamitems.small a {
         color: var(--alabaster);
-        font-size: 14pt;
+        font-size: 13pt;
         letter-spacing: 1.5pt;
         line-height: normal;
     }
