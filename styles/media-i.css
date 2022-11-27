@@ -101,7 +101,7 @@
     .visit-link {
         font-family: var(--body-font);
         font-size: 12pt;
-        color: var(--alabaster);
+        color: #ffffff;
         line-height: 1;
         letter-spacing: 0.5pt;
     }
