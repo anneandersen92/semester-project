@@ -6,11 +6,10 @@
 
 Add a more detailed description of what your project entails and set out to do.
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+The site contains, among other things:
+- a design responsive across different sized devices which also appeals to the target audience
+- visible and clear navigation to navigate between multiple levels of pages
+- semantic and neat HTML and CSS which follows the DRY principle
 
 ## Built With
 
