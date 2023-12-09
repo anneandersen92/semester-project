@@ -18,7 +18,6 @@ This site is built with the following:
 
 - HTML
 - CSS
-- JavaScript
 
 ## Getting Started
 
