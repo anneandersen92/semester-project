@@ -5,6 +5,7 @@
 ## Description
 
 Community Science Museum is an interactive and static website developed by me for my Semester Project 1 assignment, which is part of the Front-end Development program at Noroff. By using HTML and CSS I have created a functional and responsive website with an appealing and retro design.
+
 Key features include:
 - a design responsive across different sized devices which also appeals to the target audience
 - visible and clear navigation to navigate between multiple levels of pages
