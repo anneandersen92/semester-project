@@ -4,12 +4,12 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-The site contains, among other things:
+Community Science Museum is an interactive and static website developed by me for my Semester Project 1 assignment, which is part of the Front-end Development program at Noroff. By using HTML and CSS I have created a functional and responsive website with an appealing and retro design.
+Key features include:
 - a design responsive across different sized devices which also appeals to the target audience
 - visible and clear navigation to navigate between multiple levels of pages
 - semantic and neat HTML and CSS which follows the DRY principle
+- creative CSS solutions to compensate for not using JavaScript 
 
 ## Built With
 
