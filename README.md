@@ -1,6 +1,6 @@
 # Community Science Museum | Semester Project 1
 
-![image](resources/images/ohsheet.png)
+![image](images/science_museum.png)
 
 ## Description
 
