@@ -28,7 +28,7 @@ This site is built with the following:
 3. Run:
 
 ```bash
-git clone https://github.com/anneandersen92/semester-project.git
+git clone https://github.com/anneandersen92/semester-project-anneandersen92.git
 ```
 
 ### Running
