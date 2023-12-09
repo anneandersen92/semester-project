@@ -1,4 +1,4 @@
-# OH Sheet Blog | Project Exam 1
+# Community Science Museum | Semester Project 1
 
 ![image](resources/images/ohsheet.png)
 
@@ -19,7 +19,6 @@ This site is built with the following:
 - HTML
 - CSS
 - JavaScript
-- Headless Wordpress
 
 ## Getting Started
 
@@ -30,7 +29,7 @@ This site is built with the following:
 3. Run:
 
 ```bash
-git clone https://github.com/anneandersen92/project-exam-1-anneandersen92.git
+git clone https://github.com/anneandersen92/semester-project.git
 ```
 
 ### Running
