@@ -4,7 +4,7 @@
 
 ## Description
 
-Community Science Museum is an interactive and static website developed by me for my Semester Project 1 assignment, which is part of the Front-end Development program at Noroff. By using HTML and CSS I have created a functional and responsive website with an appealing and retro design.
+[Community Science Museum](https://science-museum-andersen.netlify.app/) is a website developed by me for my Semester Project 1 assignment, which is part of the Front-end Development program at Noroff. By using HTML and CSS I have created an interactive and functional website, with a responsive, appealing, and retro design.
 
 Key features include:
 - a design responsive across different sized devices which also appeals to the target audience
